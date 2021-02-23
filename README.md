@@ -13,7 +13,7 @@ I got the idea to start with this when reading about [fsmoscas PGN-Standard](htt
 So what should be done here:
 
 * Have a one stop collection of information available about PGN.
-* Provide a better readable version (similar to the one provided by [Saremba in his colophon](http://www.saremba.de/chessgml/standards/pgn/pgn-complete.htm#AEN10)) that may then be commented by just using Git and markdown, without any complex tooling around it.
+* Provide a [better readable version](pgn-specification.md)  (similar to the one provided by [Saremba in his colophon](http://www.saremba.de/chessgml/standards/pgn/pgn-complete.htm#AEN10)) that may then be commented by just using Git and markdown, without any complex tooling around it. The [original version](pgn-specification.txt) is provided as well unchanged.
 * Have additional documents linked to it, as well as commented sections, that may lead to the wish to expand or change the specification.
 
 ## Resources
