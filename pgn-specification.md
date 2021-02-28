@@ -521,7 +521,7 @@ All white move elements have a preceding move number indication.  A black move e
 
 There are no other cases where move number indications appear in PGN export format.
 
-#### <a name="823-movetext-san-standard-algebraic-notation"> 8.2.3: Movetext SAN (Standard Algebraic Notation)
+#### <a name="823-movetext-san-standard-algebraic-notation"> 8.2.3: Movetext SAN (Standard Algebraic Notation)</a>
 
 SAN (Standard Algebraic Notation) is a representation standard for chess moves using the ASCII Latin alphabet.
 
@@ -592,7 +592,7 @@ Import format PGN allows for the use of traditional suffix annotations for moves
 When exported, a move suffix annotation is translated into the corresponding Numeric Annotation Glyph as described in a later section of this document.  For example, if the single move symbol "Qxa8?" appears in an import format PGN movetext, it would be replaced with the two adjacent symbols "Qxa8 $2".
 
 
-#### <a name="824-movetext-nag-numeric-annotation-glyph"> 8.2.4: Movetext NAG (Numeric Annotation Glyph)
+#### <a name="824-movetext-nag-numeric-annotation-glyph"> 8.2.4: Movetext NAG (Numeric Annotation Glyph)</a>
 
 An NAG (Numeric Annotation Glyph) is a movetext element that is used to indicate a simple annotation in a language independent manner.  An NAG is formed from a dollar sign ("$") with a non-negative decimal integer suffix.  The non-negative integer must be from zero to 255 in value.
 
