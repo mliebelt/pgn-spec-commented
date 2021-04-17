@@ -16,4 +16,5 @@ So what should be done here:
 * Provide a [better readable version](pgn-specification.md)  (similar to the one provided by [Saremba in his colophon](http://www.saremba.de/chessgml/standards/pgn/pgn-complete.htm#AEN10)) that may then be commented by just using Git and markdown, without any complex tooling around it. The [original version](pgn-specification.txt) is provided as well unchanged.
 * Have additional documents linked to it, as well as commented sections, that may lead to the wish to expand or change the specification.
   * [PGN Specification Supplement](pgn-spec-supplement.md) Addition to PGN done ~8 years later, that adds structured comments for graphical symbols, timing, ...
+  * [Annotated Export Format](annotated/export.md) Collection of relevant parts of the spec, annotated.
 
