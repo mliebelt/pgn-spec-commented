@@ -216,7 +216,7 @@ PGN is not intended to be a general purpose standard that is suitable for every 
 
 ## 2: Chess data representation
 
-Computer usage among chessplayers has become quite common in recent years and a variety of different programs, both commercial and public domain, are used to generate, access, and propagate chess game data.  Some of these programs are rather impressive; most are now well behaved in that they correctly follow the Laws of Chess and handle users' data with reasonable care.  Unfortunately, many programs have had serious problems with several aspects of the external representation of chess game data.  Sometimes these problems become more visible when a user attempts to move significant quantities of data from one program to another; if there has been no real effort to ensure portability of data, then the chances for a successful transfer are small at best.
+Computer usage among chessplayers has become quite common in recent years and a variety of different programs, both commercial and public domain, are used to generate, access, and propagate chess game data.  Some of these programs are rather impressive; most are now well-behaved in that they correctly follow the Laws of Chess and handle users' data with reasonable care.  Unfortunately, many programs have had serious problems with several aspects of the external representation of chess game data.  Sometimes these problems become more visible when a user attempts to move significant quantities of data from one program to another; if there has been no real effort to ensure portability of data, then the chances for a successful transfer are small at best.
 
 ### 2.1: Data interchange incompatibility
 
