@@ -144,7 +144,7 @@ After black kingside castling
    1. in the case of castling, when the player's hand has released the rook on the square previously  crossed  by the king. When the player  has released  the  king from his hand, the move is not yet made, but the player no longer has the right to make any move other than castling on that side, if this is legal
    1. in the case of the promotion of a pawn, when the pawn has been removed from the chessboard and the player's hand has released the new piece after placing it on the promotion  square.  If the player  has released  from  his  hand  the  pawn  that  has reached the promotion square, the move is not yet made, but the player no longer has the right to play the pawn to another square.
 
-   The  move  is  called  legal  when  all  the  relevant  requirements  of  Article  3  have  been fulfilled. If the move is not legal, another move shall be made instead as per Article 4.5.
+    The  move  is  called  legal  when  all  the  relevant  requirements  of  Article  3  have  been fulfilled. If the move is not legal, another move shall be made instead as per Article 4.5.
 1. A player forfeits his right to a claim against his opponent's violation of Article 4 once he deliberately touches a piece.
 
 ### Article 5: The completion of the game
@@ -363,8 +363,10 @@ When a pawn makes a capture, the file of departure must be indicated, then an x,
 10. If two identical pieces can move to the same square, the piece that is moved is indicated as follows:
     1. If both pieces are on the same rank: by a) the first letter of the name of the piece, b) the file of departure, and c) the square of arrival.
     2. If both pieces are on the same file: by a) the first letter of the name of the piece, b) the rank of the square of departure, and c) the square of arrival.
-    If the pieces are on different ranks and files method 1) is preferred. In the case of capture, an x may be inserted between b) and c).<br/>
-      Examples:
+
+     If the pieces are on different ranks and files method 1) is preferred. In the case of capture, an x may be inserted between b) and c).
+
+     Examples:
        1. There are two knights, on the squares g1 and e1, and one of them moves to the square f3: either Ngf3 or Nef3, as the case may be.
        2. There are two knights, on the squares g5 and g1, and one of them moves to the square f3: either N5f3 or N1f3, as the case may be.
        3. There are two knights, on the squares h2 and d4, and one of them moves to the square f3: either Nhf3 or Ndf3, as the case may be.
@@ -397,10 +399,12 @@ Sample game:
 He may claim on the basis:
    1. that his opponent cannot win by normal means, and/or
    2. that his opponent has been making no effort to win by normal means.
-   
-In a) the player must write down the final position and his opponent verify it.
-In b) the player must write down the final position and submit an up to date scoresheet. The opponent shall verify both the scoresheet and the final position.
-The claim shall be referred to an arbiter whose decision shall be final.
+
+    In a) the player must write down the final position and his opponent verify it.
+
+    In b) the player must write down the final position and submit an up to date scoresheet. The opponent shall verify both the scoresheet and the final position.
+
+    The claim shall be referred to an arbiter whose decision shall be final.
 
 ### E. Rules for play with Blind and Visually Handicapped
 
@@ -412,31 +416,39 @@ The claim shall be referred to an arbiter whose decision shall be final.
    5. pieces of Staunton design, the black pieces being specially marked.
 1. The following regulations shall govern play:
    1. The moves shall be announced clearly, repeated by the opponent and executed on his chessboard.  When  promoting  a  pawn,  the  player  must  announce  which  piece  is chosen. To make  the  announcement  as  clear  as possible, the  use  of the  following names is suggested instead of the corresponding letters, algebraic.
-      * A - Anna 
-      * B - Bella 
-      * C - Cesar 
-      * D - David 
-      * E - Eva
-      * F - Felix
-      * G - Gustav 
-      * H - Hector<br/>
-Ranks from white to black shall receive the German numbers: 
-        1. eins
-        2. zwei
-        3. drei
-        4. vier
-        5. fuenf
-        6. sechs
-        7. sieben
-        8. acht<br/>
-    Castling  is  announced  “Lange  Rochade”  (German  for  long  castling)  and  “Kurze Rochade” (German for short castling).
-    The pieces bear the names: Koenig, Dame, Turm, Laeufer, Springer, Bauer.
-   1. On the visually handicapped player's board a piece shall be considered ‘touched’ when it has been taken out of the securing aperture.
-   2. A move shall be considered ‘executed’ when:
+      - A - Anna
+      - B - Bella
+      - C - Cesar
+      - D - David
+      - E - Eva
+      - F - Felix
+      - G - Gustav
+      - H - Hector
+  
+      Ranks from white to black shall receive the German numbers:
+
+       1. eins
+       2. zwei
+       3. drei
+       4. vier
+       5. fuenf
+       6. sechs
+       7. sieben
+       8. acht
+
+      Castling  is  announced  “Lange  Rochade”  (German  for  long  castling)  and  “Kurze Rochade” (German for short castling).
+
+      The pieces bear the names: Koenig, Dame, Turm, Laeufer, Springer, Bauer.
+   
+   2. On the visually handicapped player's board a piece shall be considered ‘touched’ when it has been taken out of the securing aperture.
+   3. A move shall be considered ‘executed’ when:
       1. in the case of a capture, the captured piece has been removed from the board of the player whose turn it is to move
       2. a piece is placed into a different securing aperture
       3. the move has been announced.
-Only then the opponent's clock shall be started. As far as points 2 and 3 are concerned the normal rules are valid for the sighted player.
+    
+      Only then the opponent's clock shall be started. 
+      
+      As far as points 2 and 3 are concerned the normal rules are valid for the sighted player.
    1. A specially constructed chess clock for the visually handicapped shall be admissible. It shall incorporate the following features:
       1. a dial fitted with reinforced hands, with every five minutes marked by one dot, and every 15 minutes by two raised dots, and
       2. a flag which can be easily felt. Care should be taken that the flag is so arranged as to allow the player to feel the minute hand during the last 5 minutes of the full hour.
@@ -462,7 +474,8 @@ The starting position for Chess960 must meet certain rules. White pawns are plac
    1. the king is placed somewhere between the two rooks, and
    2. the bishops are placed on opposite-colored squares, and
    3. the black pieces are placed equal-and-opposite to the white pieces.
-The starting position can be generated before the game either by a computer program or using dice, coin, cards, etc.
+    
+    The starting position can be generated before the game either by a computer program or using dice, coin, cards, etc.
 1. Chess960 Castling Rules
    1. Chess960 allows each player to castle once per game, a move by potentially both the king and  rook  in  a  single  move. However,  a  few  interpretations of standard  chess games  rules  are  needed  for  castling,  because  the  standard  rules  presume  initial locations of the rook and king that are often not applicable in Chess960.
    2. How to castle<br/>
@@ -472,19 +485,20 @@ The starting position can be generated before the game either by a computer prog
       3. king-move-only castling: by making only a move with the king, or
       4. rook-move-only castling: by making only a move with the rook.
 
-   Recommendation
+      Recommendation
       1. When castling on a physical board with a human player, it is recommended that the king be moved outside the playing surface next to his final position, the rook then be moved from its starting to ending position, and then the king be placed on his final square.
       2. After castling, the rook and king's final positions are exactly the same positions as they would be in standard chess.
 
-   Clarification<br/>
-   Thus, after  c-side  castling  (notated  as  0-0-0  and  known  as  queen-side  castling  in orthodox chess), the King is on the c-square (c1 for White and c8 for Black) and the Rook is on the d-square (d1 for White and d8 for Black). After g-side castling (notated as 0-0 and known as king-side castling in orthodox chess), the King is on the g-square (g1 for White and g8 for Black) and the Rook is on the f-square (f1 for White and f8 for Black).
+      Clarification
 
-   Notes<br/>
-   1. To avoid any misunderstanding, it may be useful to state "I am about to castle" before castling.
-   2. In some starting positions, the king or rook (but not both) do not move during castling.
-   3. In some starting positions, castling can take place as early as the first move.
-   4. All the  squares  between  the  king's  initial  and final  squares  (including  the final square),  and  all  of  the  squares  between  the  rook's  initial  and  final  squares (including the final square), must be vacant except for the king and castling rook.
-   5. In  some  starting  positions,  some  squares  can  stay  filled  during  castling  that would have to be vacant in standard chess. For example, after c-side castling (0- 0-O), it's possible for to have a, b, and/or e still filled, and after g-side castling (O- O), it's possible to have e and/or h filled.
+      Thus, after  c-side  castling  (notated  as  0-0-0  and  known  as  queen-side  castling  in orthodox chess), the King is on the c-square (c1 for White and c8 for Black) and the Rook is on the d-square (d1 for White and d8 for Black). After g-side castling (notated as 0-0 and known as king-side castling in orthodox chess), the King is on the g-square (g1 for White and g8 for Black) and the Rook is on the f-square (f1 for White and f8 for Black).
+
+      Notes
+      1. To avoid any misunderstanding, it may be useful to state "I am about to castle" before castling.
+      2. In some starting positions, the king or rook (but not both) do not move during castling.
+      3. In some starting positions, castling can take place as early as the first move.
+      4. All the  squares  between  the  king's  initial  and final  squares  (including  the final square),  and  all  of  the  squares  between  the  rook's  initial  and  final  squares (including the final square), must be vacant except for the king and castling rook.
+      5. In  some  starting  positions,  some  squares  can  stay  filled  during  castling  that would have to be vacant in standard chess. For example, after c-side castling (0- 0-O), it's possible for to have a, b, and/or e still filled, and after g-side castling (O- O), it's possible to have e and/or h filled.
 
 ### Guidelines in case a game needs to be adjourned
 
@@ -512,7 +526,9 @@ The starting position can be generated before the game either by a computer prog
    1.  the player having to reply to the sealed move is present, the envelope is opened, the sealed move made on the chessboard and his clock started.
    2.  the player having to reply to the sealed move is not present, his clock shall be started. On his arrival, he may stop his clock and summon the arbiter. The envelope  is then opened and the sealed move made on the chessboard. His clock is then restarted.
    3.  the player who sealed the move is not present, his opponent has the right to record his reply on the scoresheet, seal his scoresheet in a fresh envelope, stop his clock and start the absent player's clock instead of making his reply in the normal manner. If so, the envelope shall be handed to the arbiter for safe-keeping  and opened on the absent player's arrival.
-10. The player shall lose the game if he arrives at the chessboard more than one hour late for  the resumption  of an adjourned  game (unless the rules of the competition  specify or the arbiter  decides otherwise).  However, if the player who made the sealed move is the late player, the game is decided otherwise, if:
+10. The player shall lose the game if he arrives at the chessboard more than one hour late for  the resumption  of an adjourned  game (unless the rules of the competition  specify or the arbiter  decides otherwise).  
+    
+    However, if the player who made the sealed move is the late player, the game is decided otherwise, if:
     1.  the absent player has won the game by virtue  of the fact that the  sealed move  is        checkmate, or
     2.  the absent player has produced a drawn game by virtue of the fact that the sealed move  is    stalemate,  or  a  position  as  described  in  Article  9.6  has  arisen  on  the chessboard, or
     3.  the player present at the chessboard has lost the game according to Article 6.9.
