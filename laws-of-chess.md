@@ -1,3 +1,5 @@
+# FIDE Laws of Chess
+
 - [FIDE Laws of Chess](#fide-laws-of-chess)
   - [PREFACE](#preface)
   - [BASIC RULES OF PLAY](#basic-rules-of-play)
@@ -15,12 +17,21 @@
     - [Article 11: Points](#article-11-points)
     - [Article 12: The conduct of the players](#article-12-the-conduct-of-the-players)
     - [Article 13: The role of the Arbiter (See Preface)](#article-13-the-role-of-the-arbiter-see-preface)
-
-# FIDE Laws of Chess
+    - [Article 14: FIDE](#article-14-fide)
+  - [APPENDICES](#appendices)
+    - [A. Rapidplay](#a-rapidplay)
+    - [B. Blitz](#b-blitz)
+    - [C. Algebraic notation](#c-algebraic-notation)
+    - [D. Quickplay finishes where no arbiter is present in the venue](#d-quickplay-finishes-where-no-arbiter-is-present-in-the-venue)
+    - [E. Rules for play with Blind and Visually Handicapped](#e-rules-for-play-with-blind-and-visually-handicapped)
+    - [F. Chess960 Rules](#f-chess960-rules)
+    - [Guidelines in case a game needs to be adjourned](#guidelines-in-case-a-game-needs-to-be-adjourned)
 
 FIDE Laws of Chess cover over-the-board play.
 The English text is the authentic version of the Laws of Chess, which was adopted at the 79 ʰ FIDE Congress at Dresden (Germany), November 2008, coming into force on 1 July 2009.
 In these Laws the words ‘he’, ‘him’ and ‘his’ include ‘she’ and ‘her’.
+
+Remark: This document was copied over from [FIDE Laws of Chess](https://www.fide.com/FIDE/handbook/LawsOfChess.pdf) on November 22nd 2021.
 
 ## PREFACE
 
@@ -30,9 +41,9 @@ FIDE appeals to all chess players and federations to accept this view.
 
 A member federation is free to introduce more detailed rules provided they:
 
-* do not conflict in any way with the official FIDE Laws of Chess, and
-* are limited to the territory of the federation concerned, and
-* are not valid for any FIDE match, championship  or qualifying  event, or for a FIDE title or rating tournament.
+- do not conflict in any way with the official FIDE Laws of Chess, and
+- are limited to the territory of the federation concerned, and
+- are not valid for any FIDE match, championship  or qualifying  event, or for a FIDE title or rating tournament.
 
 ## BASIC RULES OF PLAY
 
@@ -49,20 +60,22 @@ A member federation is free to introduce more detailed rules provided they:
 
 These pieces are as follows:
 
-A white king
-A white queen
-Two white rooks
-Two white bishops
-Two white knights
-Eight white pawns
-A black king
-A black queen
-Two black rooks
-Two black bishops
-Two black knights
+| Piece | Symbol |
+|-------|--------|
+| A white king | |
+| A white queen | |
+| Two white rooks | |
+| Two white bishops | |
+| Two white knights | |
+| Eight white pawns | |
+| A black king | |
+| A black queen | |
+| Two black rooks | |
+| Two black bishops | |
+| Two black knights | |
 
 1. The initial position of the pieces on the chessboard is as follows:
-   
+
 1. The  eight  vertical  columns  of  squares  are  called  ‘files’.  The  eight  horizontal rows  of squares are called ‘ranks’. A straight line of squares of the same colour, running from one edge of the board to an adjacent edge, is called a ‘diagonal’.
 
 ### Article 3: The moves of the pieces
@@ -84,11 +97,12 @@ A piece is considered to attack a square, even if such a piece is constrained fr
    an ‘en passant’ capture.
    5. When  a  pawn  reaches  the  rank  furthest  from  its  starting  position  it  must  be exchanged as part of the same move on the same square for a new queen, rook, bishop or knight of the same colour. The player's choice is not restricted to pieces that have been captured previously. This exchange of a pawn for another piece is called ‘promotion’ and the effect of the new piece is immediate.
 
-
 1. King moves
    1. There are two different ways of moving the king:
    by moving to any adjoining square not attacked by one or more of the opponent's pieces
-   
+      ```
+      DIAGRAM
+      ```
    or by ‘castling’. This is a move of the king and either rook of the same colour along the  player's first  rank,  counting  as  a  single  move  of  the  king  and  executed  as follows: the king is transferred  from its original  square two squares towards the rook on its original square, then that rook is transferred to the square the king has just crossed.
 
 Before white kingside castling
@@ -109,7 +123,7 @@ After black kingside castling
    1. Castling is prevented temporarily:
        1. if the  square  on  which the  king stands,  or the square  which  it  must cross, or the square which it is to occupy, is attacked by one or more of the opponent's pieces, or
        1. if there is any piece between the king and the rook with which castling is to be effected.
-1. The king is said to be 'in check' if it is attacked by one or more of the opponent's pieces, even if such pieces are constrained from moving to that square because they would then leave or place their own king in check. No piece can be moved that will either expose the king of the same colour to check or leave that king in check.
+   1. The king is said to be 'in check' if it is attacked by one or more of the opponent's pieces, even if such pieces are constrained from moving to that square because they would then leave or place their own king in check. No piece can be moved that will either expose the king of the same colour to check or leave that king in check.
 
 ### Article 4: The act of moving the pieces
 
@@ -273,525 +287,238 @@ Otherwise a player may appeal against any decision of the arbiter, unless the ru
 
 ### Article 13: The role of the Arbiter (See Preface)
 
-13.1     The arbiter shall see that the Laws of Chess are strictly observed.
+1. The arbiter shall see that the Laws of Chess are strictly observed.
+2. The arbiter shall act in the best interest of the competition. He should ensure that a good playing  environment  is  maintained  and  that  the  players  are  not  disturbed.  He  shall supervise the progress of the competition.
+1. The  arbiter  shall  observe  the  games,  especially  when  the  players  are  short  of time, enforce decisions he has made and impose penalties on players where appropriate.
+1. The arbiter can apply one or more of the following penalties:
+   1. warning
+   2. increasing the remaining time of the opponent
+   3. reducing the remaining time of the offending player
+   4. declaring the game to be lost
+   5. reducing the points scored in the game by the offending party
+   6. increasing the points scored in the game by the opponent to the maximum available for that game
+   7. expulsion from the event.
+2. The arbiter may award  either  or both players  additional  time  in the event of external disturbance of the game.
+3. The arbiter must not intervene in a game except in cases described by the Laws of Chess. He shall not indicate the number of moves made, except in applying Article 8.5, when at least  one  flag  has  fallen.  The  arbiter  shall  refrain  from  informing  a  player  that  his opponent has completed a move or that the player has not pressed his clock.
+1. Others
+   1. Spectators and players in other games are not to speak about or otherwise interfere in a game. If necessary, the arbiter may expel offenders from the playing venue. If someone observes an irregularity, he may inform only the arbiter.
+   1. Unless authorised by the arbiter, it is forbidden for anybody to use a mobile phone or any kind of communication device in the playing venue and any contiguous area designated by the arbiter.
 
-13.2      The arbiter shall act in the best interest of the competition. He should ensure that a
-good playing  environment  is  maintained  and  that  the  players  are  not  disturbed.  He  shall
-supervise the progress of the competition.
+### Article 14: FIDE
 
-13.3      The  arbiter  shall  observe  the  games,  especially  when  the  players  are  short  of
-time, enforce decisions he has made and impose penalties on players where appropriate.
+1. Member federations may ask FIDE to give an official decision about problems relating to the Laws of Chess.
 
-13.4      The arbiter can apply one or more of the following penalties:
-a.     warning
-b.     increasing the remaining time of the opponent
-c.     reducing the remaining time of the offending player
-d.     declaring the game to be lost
-e.     reducing the points scored in the game by the offending party
-f.      increasing the points scored in the game by the opponent to the maximum available for that
-game
-g.     expulsion from the event.
+## APPENDICES
 
-13.5      The arbiter may award  either  or both players  additional  time  in the event of
-external disturbance of the game.
+### A. Rapidplay
 
-13.6      The arbiter must not intervene in a game except in cases described by the Laws of Chess.
-He shall not indicate the number of moves made, except in applying Article 8.5, when at least  one  
-flag  has  fallen.  The  arbiter  shall  refrain  from  informing  a  player  that  his opponent
-has completed a move or that the player has not pressed his clock.
+1. A ‘Rapidplay’ game is one where either all the moves must be made in a fixed time of at least 15 minutes but less than 60 minutes for each player; or the time allotted + 60 times any increment is at least 15 minutes, but less than 60 minutes for each player.
+1. Players do not need to record the moves.
+1. Where there  is adequate  supervision  of play, (for example  one arbiter for at most three games) the Competition Rules shall apply.
+1. Where supervision is inadequate the Competition  Rules shall apply, except where they are overridden by the following Laws of Rapidplay:
+   1. Once  each  player  has  completed  three  moves,  no  claim  can  be  made  regarding incorrect piece placement, orientation of the chessboard or clock setting. In case of reverse king and queen placement castling with this king is not allowed.
+   2. The arbiter shall make a ruling according to Article 4 (The act of moving the pieces), only if requested to do so by one or both players.
+   3. An  illegal  move  is  completed  once  the  opponent's  clock  has  been  started.  The opponent  is then entitled to claim that the player completed  an illegal move before the claimant  has made  his move. Only after  such a claim, shall the arbiter  make  a ruling.  However,  if  both  Kings  are  in  check  or  the  promotion  of  a  pawn  is  not completed, the arbiter shall intervene, if possible.
+   4. Flagging 
+      1. The flag is considered to have fallen when a player has made a valid claim to that effect. The arbiter shall refrain from signalling a flag fall, but he may do so if both flags have fallen.
+      2. To claim a win on time, the claimant must stop both clocks and notify the arbiter. For  the  claim  to  be  successful,  the  claimant's  flag  must  remain  up  and  his opponent's flag down after the clocks have been stopped.
+      3. If both flags have fallen as described in (1) and (2), the arbiter shall declare the game drawn.
 
-13.7      a.     Spectators and players in other games are not to speak about or otherwise
-interfere in a game. If necessary, the arbiter may expel offenders from the playing venue. If
-someone observes an irregularity, he may inform only the arbiter.
+### B. Blitz
 
-
-
-15
-
-b.     Unless authorised by the arbiter, it is forbidden for anybody to use a mobile phone or any
-kind of communication device in the playing venue and any contiguous area designated by the
-arbiter.
-
-
-Article 14: FIDE
-
-14.1      Member federations may ask FIDE to give an official decision about problems relating to
-the Laws of Chess.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16
-
-APPENDICES
-
-A. Rapidplay
-A.1   A ‘Rapidplay’ game is one where either all the moves must be made in a fixed time of at least
-15 minutes but less than 60 minutes for each player; or the time allotted + 60 times any increment
-is at least 15 minutes, but less than 60 minutes for each player.
-
-A.2   Players do not need to record the moves.
-
-A.3   Where there  is adequate  supervision  of play, (for example  one arbiter for at most three
-games) the Competition Rules shall apply.
-
-A.4   Where supervision is inadequate the Competition  Rules shall apply, except where they are
-overridden by the following Laws of Rapidplay:
-a.     Once  each  player  has  completed  three  moves,  no  claim  can  be  made  regarding
-incorrect piece placement, orientation of the chessboard or clock setting.
-In case of reverse king and queen placement castling with this king is not allowed.
-b.     The arbiter shall make a ruling according to Article 4 (The act of moving the pieces), only
-if requested to do so by one or both players.
-c.     An  illegal  move  is  completed  once  the  opponent's  clock  has  been  started.  The
-opponent  is then entitled to claim that the player completed  an illegal move before the claimant  
-has made  his move. Only after  such a claim, shall the arbiter  make  a ruling.  However,  if  
-both  Kings  are  in  check  or  the  promotion  of  a  pawn  is  not completed, the arbiter shall
-intervene, if possible.
-d.     1.     The flag is considered to have fallen when a player has made a valid claim to that
-effect. The arbiter shall refrain from signalling a flag fall, but he may do so if both flags have
-fallen.
-1.     To claim a win on time, the claimant must stop both clocks and notify the arbiter. For  the  
-claim  to  be  successful,  the  claimant's  flag  must  remain  up  and  his opponent's flag down
-after the clocks have been stopped.
-1.     If both flags have fallen as described in (1) and (2), the arbiter shall declare the game 
-drawn.
-
-B. Blitz
-
-B.1   A ‘blitz’ game’ is one where all the moves must be made  in a fixed time of less than 15
-minutes  for  each  player;  or the  allotted  time  + 60 times  any  increment  is  less than  15
+1. A ‘blitz’ game’ is one where all the moves must be made  in a fixed time of less than 15 minutes  for  each  player;  or the  allotted  time  + 60 times  any  increment  is  less than  15
 minutes.
+1. Where there is adequate  supervision of play, (one arbiter for one game) the Competition Rules and Appendix A.2 shall apply.
+1. Where supervision is inadequate the following shall apply:
+   1. Play shall be governed by the Rapidplay Laws as in Appendix A except where they are overridden by the following Laws of Blitz.
+   2. Article 10.2 and Appendix A.4.c do not apply.
+   3. An  illegal  move  is  completed  once  the  opponent's  clock  has  been  started.  The opponent is entitled to claim a win before he has made his own move. However, if the opponent  cannot checkmate the player's king by any possible series of legal moves, then the claimant is entitled to claim a draw before he has made his own move. Once the opponent  has made his own move, an illegal  move cannot  be corrected  unless mutually agreed without intervention of an arbiter.
 
-B.2    Where there is adequate  supervision of play, (one arbiter for one game) the Competition
-Rules and Appendix A.2 shall apply.
-B.3    Where supervision is inadequate the following shall apply:
-a.     Play shall be governed by the Rapidplay Laws as in Appendix A except where they are
-overridden by the following Laws of Blitz.
-b.     Article 10.2 and Appendix A.4.c do not apply.
-c.     An  illegal  move  is  completed  once  the  opponent's  clock  has  been  started.  The
-opponent is entitled to claim a win before he has made his own move. However, if the
+### C. Algebraic notation
 
-17
+FIDE recognizes for its own tournaments and matches only one system of notation, the Algebraic System, and recommends  the use of this uniform  chess notation  also for chess literature  and periodicals. Scoresheets using a notation system other than algebraic may not be used as evidence in  cases  where  normally  the  scoresheet  of a  player  is used for that  purpose.  An arbiter  who observes that a player is using a notation system other than the algebraic should warn the player about of this requirement.
 
-opponent  cannot checkmate the player's king by any possible series of legal moves, then the
-claimant is entitled to claim a draw before he has made his own move. Once the opponent  has made
-his own move, an illegal  move cannot  be corrected  unless mutually agreed without intervention of
-an arbiter.
-
-C. Algebraic notation
-
-FIDE recognizes for its own tournaments and matches only one system of notation, the Algebraic
-System, and recommends  the use of this uniform  chess notation  also for chess literature  and
-periodicals. Scoresheets using a notation system other than algebraic may not be used as evidence
-in  cases  where  normally  the  scoresheet  of a  player  is used for that  purpose.  An arbiter  
-who observes that a player is using a notation system other than the algebraic should warn the
-player about of this requirement.
 Description of the Algebraic System
-C.1   In this description, ‘piece’ means a piece other than a pawn.
 
-C.2    Each  piece  is indicated  by the first letter, a capital  letter, of its name. Example:  
-K=king, Q=queen,  R=rook,  B=bishop,  N=knight.  (In  the  case  of  the  knight,  for  the  sake  
-of convenience, N is used.)
+1. In this description, ‘piece’ means a piece other than a pawn.
+2. Each  piece  is indicated  by the first letter, a capital  letter, of its name. Example:  
+K=king, Q=queen,  R=rook,  B=bishop,  N=knight.  (In  the  case  of  the  knight,  for  the  sake  of convenience, N is used.)
+3. For the first letter of the name of the pieces, each player is free to use the first letter of the name which is commonly used in his country. Examples: F=fou (French for bishop), L=loper (Dutch   for  bishop).  In  printed   periodicals,   the  use  of  figurines   for  the  pieces is recommended.
+4. Pawns are not indicated by their first letter, but are recognized  by the absence of such a letter. Examples: e5, d4, a5.
+5. The eight files (from the left to right for White and from right to left for Black) are indicated by the small letters, a, b, c, d, e, f, g, and h, respectively.
+6. The  eight  ranks  (from  bottom to top  for  White  and from top to  bottom  for  Black) are numbered 1, 2, 3, 4, 5, 6, 7, 8, respectively. Consequently, in the initial position the white pieces and pawns are placed on the first and second ranks; the black pieces and pawns on the eighth and seventh ranks.
+7. As a consequence of the previous rules, each of the sixty-four squares is invariably indicated by a unique combination of a letter and a number.
 
-C.3    For the first letter of the name of the pieces, each player is free to use the first letter
-of the name which is commonly used in his country. Examples: F=fou (French for bishop), L=loper
-(Dutch   for  bishop).  In  printed   periodicals,   the  use  of  figurines   for  the  pieces   
-is recommended.
-C.4    Pawns are not indicated by their first letter, but are recognized  by the absence of such a
-letter. Examples: e5, d4, a5.
-C.5    The eight files (from the left to right for White and from right to left for Black) are
-indicated by the small letters, a, b, c, d, e, f, g, and h, respectively.
-C.6    The  eight  ranks  (from  bottom to top  for  White  and from top to  bottom  for  Black)  
-are numbered 1, 2, 3, 4, 5, 6, 7, 8, respectively. Consequently, in the initial position the white
-pieces and pawns are placed on the first and second ranks; the black pieces and pawns on the eighth
-and seventh ranks.
-C.7    As a consequence of the previous rules, each of the sixty-four squares is invariably
-indicated by a unique combination of a letter and a number.
-
-a8 bB c8 dB eB IBM g8 h8 b7 cz  d7 a7  fz  §Z  h7
-a6 b6 o6 d6 e6 fb  g6 h6
-b5 zg  d5 a5  fS  gS  h5 a4 b4 c4 d4 e4 f4  g4 QM b3 cz  d3 az  f3 g2 h3
-a2 b2 c2 d2 e2 fz  g2
-b1      d1      f1      h1
-
-18
-
-C.8    Each move of a piece is indicated by a) the first letter of the name of the piece in
-question and b) the square of arrival. There is no hyphen between a) and b). Examples: Be5, Nf3,
-Rd1. In the case of pawns, only the square of arrival is indicated. Examples: e5, d4, a5.
-
-C.9    When a piece makes a capture, an x is inserted between a) the first letter of the name of
-the piece in question and b) the square of arrival. Examples: Bxe5, Nxf3, Rxd1.
-When a pawn makes a capture, the file of departure must be indicated, then an x, then the square of
-arrival. Examples: dxe5, gxf3, axb5. In the case of an ‘en passante’ capture, the square of arrival
-is given as the square on which the capturing pawn finally rests and ‘e.p.’ is appended to the
-notation. Example: exd6 e.p.
-
-C.10  If two identical pieces can move to the same square, the piece that is moved is indicated as
-follows:
-1.     If both pieces are on the same rank: by a) the first letter of the name of the piece, b) the 
-file of departure, and c) the square of arrival.
-1.     If both pieces are on the same file: by a) the first letter of the name of the piece, b) the 
-rank of the square of departure, and c) the square of arrival.
-If the pieces are on different ranks and files methof 1) is preferred. In the case of capture, an x
-may be inserted between b) and c).
-Examples:
-1.     There are two knights, on the squares g1 and e1, and one of them moves to the square f3: 
-either Ngf3 or Nef3, as the case may be.
-1.     There are two knights, on the squares g5 and g1, and one of them moves to the square f3: 
-either N5f3 or N1f3, as the case may be.
-1.     There are two knights, on the squares h2 and d4, and one of them moves to the square f3: 
-either Nhf3 or Ndf3, as the case may be.
-If a capture takes place on the square f3, the previous examples are changed by the insertion of an
-x: 1) either Ngxf3 or Nexf3, 2) either N5xf3 or N1xf3, 3) either Nhxf3 or Ndxf3, as the case may
-be.
-
-C.11  If two pawns can capture the same piece or pawn of the opponent, the pawn that is moved is
-indicated by a) the letter of the file of departure, b) an x, c) the square of arrival. Example: If
-there are white pawns on squares c4 and e4 and a black pawn or piece on the square d5, the notation
-for White's move is either cxd5 or exd5, as the case may be.
-
-C.12  In  the  case  of  the  promotion  of  a  pawn, the  actual  pawn  move  is  indicated,  
-followed immediately by the first letter of the new piece. Examples: d8Q f8N, b1B, g1R.
-
-C.13  The offer of a draw shall be marked as (=).
+    a8 b8 c8 d8 e8 f8 g8 h8 
+    a7 b7 c7  d7 e7  f7  g7  h7 
+    a6 b6 c6 d6 e6 f6  g6 h6 
+    a5 b5 c5  d5 e5  f5  g5  h5 
+    a4 b4 c4 d4 e4 f4  g4 h4
+    a3 b3 c3  d3 e3  f3 g3 h3 
+    a2 b2 c2 d2 e2 d2  g2 h2
+    a1 b1 c1 d1 e1 f1 g1 h1
+8. Each move of a piece is indicated by a) the first letter of the name of the piece in question and b) the square of arrival. There is no hyphen between a) and b). Examples: Be5, Nf3, Rd1. In the case of pawns, only the square of arrival is indicated. Examples: e5, d4, a5.
+9. When a piece makes a capture, an x is inserted between a) the first letter of the name of the piece in question and b) the square of arrival. Examples: Bxe5, Nxf3, Rxd1.
+When a pawn makes a capture, the file of departure must be indicated, then an x, then the square of arrival. Examples: dxe5, gxf3, axb5. In the case of an ‘en passante’ capture, the square of arrival is given as the square on which the capturing pawn finally rests and ‘e.p.’ is appended to the notation. Example: exd6 e.p.
+10. If two identical pieces can move to the same square, the piece that is moved is indicated as follows:
+    1. If both pieces are on the same rank: by a) the first letter of the name of the piece, b) the file of departure, and c) the square of arrival.
+    2. If both pieces are on the same file: by a) the first letter of the name of the piece, b) the rank of the square of departure, and c) the square of arrival.
+    If the pieces are on different ranks and files method 1) is preferred. In the case of capture, an x may be inserted between b) and c).<br/>
+      Examples:
+       1. There are two knights, on the squares g1 and e1, and one of them moves to the square f3: either Ngf3 or Nef3, as the case may be.
+       2. There are two knights, on the squares g5 and g1, and one of them moves to the square f3: either N5f3 or N1f3, as the case may be.
+       3. There are two knights, on the squares h2 and d4, and one of them moves to the square f3: either Nhf3 or Ndf3, as the case may be.
+       If a capture takes place on the square f3, the previous examples are changed by the insertion of an x: 1) either Ngxf3 or Nexf3, 2) either N5xf3 or N1xf3, 3) either Nhxf3 or Ndxf3, as the case may be.
+11. If two pawns can capture the same piece or pawn of the opponent, the pawn that is moved is indicated by a) the letter of the file of departure, b) an x, c) the square of arrival. Example: If there are white pawns on squares c4 and e4 and a black pawn or piece on the square d5, the notation for White's move is either cxd5 or exd5, as the case may be.
+12. In  the  case  of  the  promotion  of  a  pawn, the  actual  pawn  move  is  indicated,  followed immediately by the first letter of the new piece. Examples: d8Q f8N, b1B, g1R.
+13. The offer of a draw shall be marked as (=).
 
 Essential abbreviations
-0 - 0                 = castling with rook h1or rook h8 (kingside castling)
-0 - 0 - 0             = castling with rook a1 or rook a8 (queenside castling) x                     
-= captures
-+                     = check
-++or#               = checkmate
-e.p.                  = captures ‘en passante’
+
+| Abbreviation | Meaning |
+|--------------|---------|
+| 0 - 0  | castling with rook h1or rook h8 (kingside castling) |
+| 0 - 0 - 0 |castling with rook a1 or rook a8 (queenside castling) | 
+| x | captures |
+| + | check |
+| ++ or # | checkmate |
+| e.p. | captures ‘en passante’ |
 
 It is not mandatory to record the check, the checkmate and capturing on the scoresheet.
 
-19
-
 Sample game:
-1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6e.p. Nxd6 7. Bg5 Nc6 8. Qe3+3 Be7 9.
-   Nbd2 0-0 10. 0-0-0 Re8 11. Kb1 (=)
+
+    1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6e.p. Nxd6 7. Bg5 Nc6 8. Qe3+3 Be7 9. Nbd2 0-0 10. 0-0-0 Re8 11. Kb1 (=)
 
 
-D. Quickplay finishes where no arbiter is present in the venue
+### D. Quickplay finishes where no arbiter is present in the venue
 
-D.1   Where games are played as in Article 10, a player may claim a draw when he has less than two
-minutes left on his clock and before his flag falls. This concludes the game.
+1. Where games are played as in Article 10, a player may claim a draw when he has less than two minutes left on his clock and before his flag falls. This concludes the game.<br/>
 He may claim on the basis:
-a.     that his opponent cannot win by normal means, and/or
-b.     that his opponent has been making no effort to win by normal means.
-
+   1. that his opponent cannot win by normal means, and/or
+   2. that his opponent has been making no effort to win by normal means.
+   
 In a) the player must write down the final position and his opponent verify it.
-In b) the player must write down the final position and submit an up to date scoresheet. The
-opponent shall verify both the scoresheet and the final position.
+In b) the player must write down the final position and submit an up to date scoresheet. The opponent shall verify both the scoresheet and the final position.
 The claim shall be referred to an arbiter whose decision shall be final.
 
-
-E. Rules for play with Blind and Visually Handicapped
-
-E.1   Tournament directors shall have the power to adapt the following rules according to local
-circumstances. In  competitive  chess  between  sighted  and  visually  handicapped  players
-(legally blind) either player may demand the use of two boards, the sighted player using a normal
-board, the visually handicapped player using one specially constructed. The specially constructed
-board must meet the following requirements:
-a.     at least 20 by 20 centimetres, and
-b.     the black squares slightly raised, and
-c.     a securing aperture in each square, and
-d.     every piece provided with a peg that fits into the securing aperture, and
-e.     pieces of Staunton design, the black pieces being specially marked.
-
-E.2    The following regulations shall govern play:
-1.     The moves shall be announced clearly, repeated by the opponent and executed on his 
-chessboard.  When  promoting  a  pawn,  the  player  must  announce  which  piece  is chosen. To
-make  the  announcement  as  clear  as possible, the  use  of the  following names is suggested
-instead of the corresponding letters, algebraic.
-A - Anna B - Bella C - Cesar D - David E - Eva
-F - Felix
-G - Gustav H - Hector
-
-Ranks from white to black shall receive the German numbers: 1 - eins
-2 - zwei
-
-20
-
-3 - drei
-4 - vier
-5 - fuenf
-6 - sechs
-7 - sieben
-8 - acht
-Castling  is  announced  “Lange  Rochade”  (German  for  long  castling)  and  “Kurze Rochade”
-(German for short castling).
-The pieces bear the names: Koenig, Dame, Turm, Laeufer, Springer, Bauer.
-
-2.     On the visually handicapped player's board a piece shall be considered ‘touched’ when it has 
-been taken out of the securing aperture.
-
-3.     A move shall be considered ‘executed’ when:
-a.     in the case of a capture, the captured piece has been removed from the board of the player
-whose turn it is to move
-b.     a piece is placed into a different securing aperture
-c.     the move has been announced.
-Only then the opponent's clock shall be started.
-As far as points 2 and 3 are concerned the normal rules are valid for the sighted player.
-
-4.     A specially constructed chess clock for the visually handicapped shall be admissible. It 
-shall incorporate the following features:
-a.     a dial fitted with reinforced hands, with every five minutes marked by one dot, and every 15
-minutes by two raised dots, and
-b.     a flag which can be easily felt. Care should be taken that the flag is so arranged as to
-allow the player to feel the minute hand during the last 5 minutes of the full hour.
-
-5.     The visually handicapped player must keep score of the game in Braille or longhand or record 
-the moves on a tape recorder.
-
-6.     A slip of the tongue in the announcement  of a move must be corrected immediately and before 
-the clock of the opponent is started.
-
-7.     If during  a game different  positions  should arise  on the two boards, they  must  be 
-corrected with the assistance of the controller and by consulting both players' game scores. If the
-two game scores correspond with each other, the player who has written the correct move but
-executed the wrong one must adjust his position to correspond with the move on the game scores.
-
-8.     If, when  such  differences  occur  and the two game  scores  are  found to  differ, the 
-moves shall be retraced to the point where the two scores agree and the controller shall readjust
-the clocks accordingly.
-
-9.     The visually handicapped player shall have the right to make use of an assistant who shall 
-have any or all of the following duties:
-a.     make either player's move on the board of the opponent
-b.     announce the moves of both players
-
-21
-
-c.     keep the game score of the visually handicapped player and start his opponent's clock
-(keeping point 3.c in mind)
-d.     inform the  visually  handicapped  player  only  at  his request  of the  number  of moves
-completed and the time used up by both players
-e.     claim the game in cases where the time limit has been exceeded and inform the controller
-when the sighted player has touched one of his pieces
-f.      carry out the necessary formalities in case the game is adjourned.
-
-10.   If the visually handicapped player does not make use of an assistant, the sighted player may
-      make use of one who shall carry out the duties mentioned in points 9.a and 9.b.
-
-
-F. Chess960 Rules
-
-F.1   Before a Chess960 game a starting position is randomly set up, subject to certain rules.
-After this, the game is played in the same way as standard chess. In particular, pieces and pawns
-have their normal moves, and each player's objective is to checkmate the opponent's king.
-
-F.2    Starting position requirements
-The starting position for Chess960 must meet certain rules. White pawns are placed on the second
-rank as in regular chess. All remaining white pieces are placed randomly on the first rank, but
-with the following restrictions:
-a.     the king is placed somewhere between the two rooks, and
-b.     the bishops are placed on opposite-colored squares, and
-c.     the black pieces are placed equal-and-opposite to the white pieces.
-The starting position can be generated before the game either by a computer program or using dice,
-coin, cards, etc.
-
-F.3    Chess960 Castling Rules
-a.     Chess960 allows each player to castle once per game, a move by potentially both the king  
-and  rook  in  a  single  move. However,  a  few  interpretations of standard  chess games  rules  
-are  needed  for  castling,  because  the  standard  rules  presume  initial locations of the rook
-and king that are often not applicable in Chess960.
-
-b.     How to castle
-In Chess960, depending on the pre-castling position on the castling king and rook, the castling
-manoeuvre is performed by one of these four methods:
-1.     double-move castling: by on one turn making a move with the king and a move with the rook, 
-or
-2.     transposition castling: by transposing the position of the king and the rook, or
-3.     king-move-only castling: by making only a move with the king, or
-4.     rook-move-only castling: by making only a move with the rook.
-
-Recommendation
-1.     When castling on a physical board with a human player, it is recommended that the king be 
-moved outside the playing surface next to his final position, the rook then be moved from its
-starting to ending position, and then the king be placed on his final square.
-
-
-22
-
-2.     After castling, the rook and king's final positions are exactly the same positions as they 
-would be in standard chess.
-
-Clarification
-Thus, after  c-side  castling  (notated  as  0-0-0  and  known  as  queen-side  castling  in
-orthodox chess), the King is on the c-square (c1 for White and c8 for Black) and the Rook is on the
-d-square (d1 for White and d8 for Black). After g-side castling (notated as 0-0 and known as
-king-side castling in orthodox chess), the King is on the g-square (g1 for White and g8 for Black)
-and the Rook is on the f-square (f1 for White and f8 for Black).
-
-Notes
-1.     To avoid any misunderstanding, it may be useful to state "I am about to castle" before 
-castling.
-2.     In some starting positions, the king or rook (but not both) do not move during castling.
-3.     In some starting positions, castling can take place as early as the first move.
-4.     II the  squares  between  the  king's  initial  and final  squares  (including  the final 
-square),  and  all  of  the  squares  between  the  rook's  initial  and  final  squares (including
-the final square), must be vacant except for the king and castling rook.
-5.     In  some  starting  positions,  some  squares  can  stay  filled  during  castling  that 
-would have to be vacant in standard chess. For example, after c-side castling (0- 0-O), it's
-possible for to have a, b, and/or e still filled, and after g-side castling (O- O), it's possible
-to have e and/or h filled.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-23
-
-Guidelines in case a game needs to be adjourned
-
-1.     a.     If a game is not finished at the end of the time prescribed for play, the arbiter 
-shall require the player having the move to ‘seal’ that move. The player must write his move in  
-unambiguous  notation  on  his  scoresheet,  put  his  scoresheet  and  that  of  his opponent  in  
-an  envelope,  seal  the  envelope  and  only then  stop  his  clock  without starting his
-opponent's clock. Until he has stopped the clocks, the player retains the right to change his
-sealed move. If, after being told by the arbiter to seal his move, the player  makes  a  move  on  
-the  chessboard  he  must  write  that  same  move  on  his scoresheet as his sealed move.
-b.     A  player  having the  move,  who  adjourns  the game  before  the  end  of the  playing
-session, shall  be considered to have  sealed at the nominal time for the end of the session, and
-his remaining time shall so be recorded.
-
-2.     The following shall be indicated upon the envelope:
-a.     the names of the players, and
-b.     the position immediately before the sealed move, and
-c.     the time used by each player, and
-d.     the name of the player who has sealed the move, and
-e.     the number of the sealed move, and
-f.      the offer of a draw, if the proposal is current, and
-g.     the date, time and venue of resumption of play.
-
-
-3.     The arbiter shall check the accuracy of the information on the envelope and is responsible 
-for the safe-keeping of it.
-
-4.     If a player proposes a draw after his opponent has sealed his move, the offer is valid until 
-the opponent has accepted it or rejected it as in Article 9.1.
-
-5.     Before the game is to be resumed, the position immediately before the sealed move shall be 
-set up on the chessboard, and the times used by each player when the game was adjourned shall be
-indicated on the clocks.
-
-6.     If prior to the resumption the game is agreed drawn, or if one of the players notifies the 
-arbiter that he resigns, the game is concluded.
-
-7.     The envelope shall be opened only when the player who must reply to the sealed move is
-present.
-
-8.     Except  in the cases mentioned in the Articles 5, 6.9 and 9.6, the game is lost by a player 
-whose recording of his sealed move:
-a.     is ambiguous, or
-b.     is recorded such that its true significance is impossible to establish, or
-c.     is illegal.
-
-9.     If, at the agreed resumption time:
-a.     the player having to reply to the sealed move is present, the envelope is opened, the sealed
-move made on the chessboard and his clock started.
-
-24
-
-b.     the player having to reply to the sealed move is not present, his clock shall be started. On
-his arrival, he may stop his clock and summon the arbiter. The envelope  is then opened and the
-sealed move made on the chessboard. His clock is then restarted.
-c.     the player who sealed the move is not present, his opponent has the right to record his
-reply on the scoresheet, seal his scoresheet in a fresh envelope, stop his clock and start the
-absent player's clock instead of making his reply in the normal manner. If so, the envelope shall
-be handed to the arbiter for safe-keeping  and opened on the absent player's arrival.
-
-10.    The player shall lose the game if he arrives at the chessboard more than one hour late for
-       the resumption  of an adjourned  game (unless the rules of the competition  specify or the arbiter
-       decides otherwise).
-       However, if the player who made the sealed move is the late player, the game is decided otherwise,
-       if:
-       a.     the absent player has won the game by virtue  of the fact that the  sealed move  is
-       checkmate, or
-       b.     the absent player has produced a drawn game by virtue of the fact that the sealed move  is  
-       stalemate,  or  a  position  as  described  in  Article  9.6  has  arisen  on  the chessboard, or
-       c.     the player present at the chessboard has lost the game according to Article 6.9.
-
-11.    a.     If the envelope containing the sealed move is missing, the game shall continue from
-       the position, with the clock times recorded at the time of adjournment. If the time used  by  each  
-       player  cannot  be  re-established the  arbiter  shall  set the  clocks.  The player who sealed the
-       move makes the move he states he sealed on the chessboard.
-       b.     If it is impossible to re-establish  the position, the game is annulled and a new game must
-       be played.
-
-12.   If, upon resumption of the game, either player points out before making his first move that
-      the time used has been incorrectly indicated on either clock, the error must be corrected. If the
-      error is not then established the game continues without correction unless the arbiter feels that
-      the consequences will be too severe.
-
-13.    The duration of each resumption session shall be controlled by the arbiter's timepiece. The
-       starting time and finishing time shall be announced in advance.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-25
+### E. Rules for play with Blind and Visually Handicapped
+
+1. Tournament directors shall have the power to adapt the following rules according to local circumstances. In  competitive  chess  between  sighted  and  visually  handicapped  players (legally blind) either player may demand the use of two boards, the sighted player using a normal board, the visually handicapped player using one specially constructed. The specially constructed board must meet the following requirements:
+   1. at least 20 by 20 centimetres, and
+   2. the black squares slightly raised, and
+   3. a securing aperture in each square, and
+   4. every piece provided with a peg that fits into the securing aperture, and
+   5. pieces of Staunton design, the black pieces being specially marked.
+1. The following regulations shall govern play:
+   1. The moves shall be announced clearly, repeated by the opponent and executed on his chessboard.  When  promoting  a  pawn,  the  player  must  announce  which  piece  is chosen. To make  the  announcement  as  clear  as possible, the  use  of the  following names is suggested instead of the corresponding letters, algebraic.
+      * A - Anna 
+      * B - Bella 
+      * C - Cesar 
+      * D - David 
+      * E - Eva
+      * F - Felix
+      * G - Gustav 
+      * H - Hector<br/>
+Ranks from white to black shall receive the German numbers: 
+        1. eins
+        2. zwei
+        3. drei
+        4. vier
+        5. fuenf
+        6. sechs
+        7. sieben
+        8. acht<br/>
+    Castling  is  announced  “Lange  Rochade”  (German  for  long  castling)  and  “Kurze Rochade” (German for short castling).
+    The pieces bear the names: Koenig, Dame, Turm, Laeufer, Springer, Bauer.
+   1. On the visually handicapped player's board a piece shall be considered ‘touched’ when it has been taken out of the securing aperture.
+   2. A move shall be considered ‘executed’ when:
+      1. in the case of a capture, the captured piece has been removed from the board of the player whose turn it is to move
+      2. a piece is placed into a different securing aperture
+      3. the move has been announced.
+Only then the opponent's clock shall be started. As far as points 2 and 3 are concerned the normal rules are valid for the sighted player.
+   1. A specially constructed chess clock for the visually handicapped shall be admissible. It shall incorporate the following features:
+      1. a dial fitted with reinforced hands, with every five minutes marked by one dot, and every 15 minutes by two raised dots, and
+      2. a flag which can be easily felt. Care should be taken that the flag is so arranged as to allow the player to feel the minute hand during the last 5 minutes of the full hour.
+
+   2. The visually handicapped player must keep score of the game in Braille or longhand or record the moves on a tape recorder.
+   3. A slip of the tongue in the announcement  of a move must be corrected immediately and before the clock of the opponent is started.
+   4. If during  a game different  positions  should arise  on the two boards, they  must  be corrected with the assistance of the controller and by consulting both players' game scores. If the two game scores correspond with each other, the player who has written the correct move but executed the wrong one must adjust his position to correspond with the move on the game scores.
+   5. If, when  such  differences  occur  and the two game  scores  are  found to  differ, the moves shall be retraced to the point where the two scores agree and the controller shall readjust the clocks accordingly.
+   6. The visually handicapped player shall have the right to make use of an assistant who shall have any or all of the following duties:
+      1. make either player's move on the board of the opponent
+      2. announce the moves of both players
+      3. keep the game score of the visually handicapped player and start his opponent's clock (keeping point 3.c in mind)
+      4. inform the  visually  handicapped  player  only  at  his request  of the  number  of moves completed and the time used up by both players
+      5. claim the game in cases where the time limit has been exceeded and inform the controller when the sighted player has touched one of his pieces
+      6. carry out the necessary formalities in case the game is adjourned.
+   7. If the visually handicapped player does not make use of an assistant, the sighted player may make use of one who shall carry out the duties mentioned in points 9.a and 9.b.
+
+### F. Chess960 Rules
+
+1. Before a Chess960 game a starting position is randomly set up, subject to certain rules. After this, the game is played in the same way as standard chess. In particular, pieces and pawns have their normal moves, and each player's objective is to checkmate the opponent's king.
+2. Starting position requirements<br/>
+The starting position for Chess960 must meet certain rules. White pawns are placed on the second rank as in regular chess. All remaining white pieces are placed randomly on the first rank, but with the following restrictions:
+   1. the king is placed somewhere between the two rooks, and
+   2. the bishops are placed on opposite-colored squares, and
+   3. the black pieces are placed equal-and-opposite to the white pieces.
+The starting position can be generated before the game either by a computer program or using dice, coin, cards, etc.
+1. Chess960 Castling Rules
+   1. Chess960 allows each player to castle once per game, a move by potentially both the king and  rook  in  a  single  move. However,  a  few  interpretations of standard  chess games  rules  are  needed  for  castling,  because  the  standard  rules  presume  initial locations of the rook and king that are often not applicable in Chess960.
+   2. How to castle<br/>
+   In Chess960, depending on the pre-castling position on the castling king and rook, the castling manoeuvre is performed by one of these four methods:
+      1. double-move castling: by on one turn making a move with the king and a move with the rook, or
+      2. transposition castling: by transposing the position of the king and the rook, or
+      3. king-move-only castling: by making only a move with the king, or
+      4. rook-move-only castling: by making only a move with the rook.
+
+   Recommendation
+      1. When castling on a physical board with a human player, it is recommended that the king be moved outside the playing surface next to his final position, the rook then be moved from its starting to ending position, and then the king be placed on his final square.
+      2. After castling, the rook and king's final positions are exactly the same positions as they would be in standard chess.
+
+   Clarification<br/>
+   Thus, after  c-side  castling  (notated  as  0-0-0  and  known  as  queen-side  castling  in orthodox chess), the King is on the c-square (c1 for White and c8 for Black) and the Rook is on the d-square (d1 for White and d8 for Black). After g-side castling (notated as 0-0 and known as king-side castling in orthodox chess), the King is on the g-square (g1 for White and g8 for Black) and the Rook is on the f-square (f1 for White and f8 for Black).
+
+   Notes<br/>
+   1. To avoid any misunderstanding, it may be useful to state "I am about to castle" before castling.
+   2. In some starting positions, the king or rook (but not both) do not move during castling.
+   3. In some starting positions, castling can take place as early as the first move.
+   4. All the  squares  between  the  king's  initial  and final  squares  (including  the final square),  and  all  of  the  squares  between  the  rook's  initial  and  final  squares (including the final square), must be vacant except for the king and castling rook.
+   5. In  some  starting  positions,  some  squares  can  stay  filled  during  castling  that would have to be vacant in standard chess. For example, after c-side castling (0- 0-O), it's possible for to have a, b, and/or e still filled, and after g-side castling (O- O), it's possible to have e and/or h filled.
+
+### Guidelines in case a game needs to be adjourned
+
+1. Adjourning
+   1. If a game is not finished at the end of the time prescribed for play, the arbiter shall require the player having the move to ‘seal’ that move. The player must write his move in  unambiguous  notation  on  his  scoresheet,  put  his  scoresheet  and  that  of  his opponent  in  an  envelope,  seal  the  envelope  and  only then  stop  his  clock  without starting his opponent's clock. Until he has stopped the clocks, the player retains the right to change his sealed move. If, after being told by the arbiter to seal his move, the player  makes  a  move  on  the  chessboard  he  must  write  that  same  move  on  his scoresheet as his sealed move.
+   2. A  player  having the  move,  who  adjourns  the game  before  the  end  of the  playing session, shall  be onsidered to have  sealed at the nominal time for the end of the session, and his remaining time shall so be recorded.
+2. The following shall be indicated upon the envelope:
+   1. the names of the players, and
+   2. the position immediately before the sealed move, and
+   3. the time used by each player, and
+   4. the name of the player who has sealed the move, and
+   5. the number of the sealed move, and
+   6. the offer of a draw, if the proposal is current, and
+   7. the date, time and venue of resumption of play.
+3. The arbiter shall check the accuracy of the information on the envelope and is responsible for the safe-keeping of it.
+4. If a player proposes a draw after his opponent has sealed his move, the offer is valid until the opponent has accepted it or rejected it as in Article 9.1.
+5. Before the game is to be resumed, the position immediately before the sealed move shall be set up on the chessboard, and the times used by each player when the game was adjourned shall be indicated on the clocks.
+6. If prior to the resumption the game is agreed drawn, or if one of the players notifies the arbiter that he resigns, the game is concluded.
+7. The envelope shall be opened only when the player who must reply to the sealed move is present.
+8. Except  in the cases mentioned in the Articles 5, 6.9 and 9.6, the game is lost by a player whose recording of his sealed move:
+   1. is ambiguous, or
+   2. is recorded such that its true significance is impossible to establish, or
+   3. is illegal.
+9. If, at the agreed resumption time:
+   1.  the player having to reply to the sealed move is present, the envelope is opened, the sealed move made on the chessboard and his clock started.
+   2.  the player having to reply to the sealed move is not present, his clock shall be started. On his arrival, he may stop his clock and summon the arbiter. The envelope  is then opened and the sealed move made on the chessboard. His clock is then restarted.
+   3.  the player who sealed the move is not present, his opponent has the right to record his reply on the scoresheet, seal his scoresheet in a fresh envelope, stop his clock and start the absent player's clock instead of making his reply in the normal manner. If so, the envelope shall be handed to the arbiter for safe-keeping  and opened on the absent player's arrival.
+10. The player shall lose the game if he arrives at the chessboard more than one hour late for  the resumption  of an adjourned  game (unless the rules of the competition  specify or the arbiter  decides otherwise).  However, if the player who made the sealed move is the late player, the game is decided otherwise, if:
+    1.  the absent player has won the game by virtue  of the fact that the  sealed move  is        checkmate, or
+    2.  the absent player has produced a drawn game by virtue of the fact that the sealed move  is    stalemate,  or  a  position  as  described  in  Article  9.6  has  arisen  on  the chessboard, or
+    3.  the player present at the chessboard has lost the game according to Article 6.9.
+
+11. Envelope missing
+    1. If the envelope containing the sealed move is missing, the game shall continue from the position, with the clock times recorded at the time of adjournment. If the time used  by  each  player  cannot  be  re-established the  arbiter  shall  set the  clocks.  The player who sealed the  move makes the move he states he sealed on the chessboard.
+    2. If it is impossible to re-establish  the position, the game is annulled and a new game must be played.
+12. If, upon resumption of the game, either player points out before making his first move that  the time used has been incorrectly indicated on either clock, the error must be corrected. If the error is not then established the game continues without correction unless the arbiter feels that the consequences will be too severe.
+13. The duration of each resumption session shall be controlled by the arbiter's timepiece. The starting time and finishing time shall be announced in advance.
