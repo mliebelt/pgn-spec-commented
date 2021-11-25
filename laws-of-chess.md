@@ -49,7 +49,7 @@ A member federation is free to introduce more detailed rules provided they:
 
 ### Article 1: The nature and objectives of the game of chess
 
-1. The game of chess is played between two opponents who move their pieces alternately on a square board called a ‘chessboard’. The player with the white pieces commences the game. A player is said to ‘have the move’, when his opponent's move has been ‘made’. (See Article 6.7)
+1. The game of chess is played between two opponents who move their pieces alternately on a square board called a ‘chessboard’. The player with the white pieces commences the game. A player is said to ‘have the move’, when his opponent's move has been ‘made’. (See [Article 6.7](#6-7))
 2. The objective of each player is to place the opponent's king ‘under attack’ in such a way that the opponent has no legal move. The player who achieves this goal is said to have ‘checkmated’ the opponent's  king and to have won the game. Leaving one's own king under attack, exposing one's own king to attack and also ‘capturing’ the opponent's king are not allowed. The opponent whose king has been checkmated has lost the game.
 3. If the position is such that neither player can possibly checkmate, the game is drawn.
 
@@ -174,7 +174,7 @@ After black kingside castling
 1. Forfeiting
    1. Any player who arrives at the chessboard after the start of the session shall lose the game. Thus the default time is 0 minutes. The rules of a competition  may specify otherwise.
    1. If the rules  of a  competition  specify  a  different  default time, the following  shall apply. If neither player is present initially, the player who has the white pieces shall lose all the time that elapses until he arrives, unless the rules of the competition specify or the arbiter decides otherwise.
-1. Chess Clock Handling
+1. <a name="6-7"></a>Chess Clock Handling
    1. During the game each player, having made his move on the chessboard, shall stop his own clock and start his opponent's  clock. A player must always be allowed to stop his clock.  His move is not considered to have been completed until he has done so, unless the move that was made ends the game. (See the Articles 5.1.a, 5.2.a, 5.2.b, 5.2.c and 9.6) The time between making the move on the chessboard and stopping his own clock and starting  his opponent‘s  clock  is regarded  as part  of the time  allotted  to the player.
    2. A player must stop his clock with the same hand as that with which he made his move. It is forbidden for a player to keep his finger on the button or to ‘hover’ over it.
    3. The players must handle the chess clock properly. It is forbidden to punch it forcibly, to pick  it up  or to knock  it  over. Improper  clock  handling  shall  be  penalised  in accordance with Article 13.4.
