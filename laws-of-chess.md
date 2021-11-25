@@ -153,7 +153,7 @@ After black kingside castling
 1. Draws
    1. <a name="5-2-1"></a>The game is drawn when the player to move has no legal move and his king is not in check. The game  is said to end  in ‘stalemate’.  This  immediately  ends the game, provided that the move producing the stalemate position was legal.
    1. <a name="5-2-2"></a>The  game  is  drawn  when  a  position  has  arisen  in  which  neither  player  can checkmate the opponent's king with any series of legal moves. The game is said to end in a ‘dead position’. This immediately ends the game, provided that the move producing the position was legal.  (See [Article 9.6](#9-6))
-   1. <a name="5-2-3"></a>The game is drawn upon agreement between the two players during the game. This immediately ends the game. (See Article 9.1)
+   1. <a name="5-2-3"></a>The game is drawn upon agreement between the two players during the game. This immediately ends the game. (See [Article 9.1](#9-1))
    1. The game may be drawn if any identical position is about to appear or has appeared on the chessboard at least three times. (See [Article 9.2](#9-2))
    1. The game may be drawn if each player has made at least the last 50 consecutive moves without the movement  of any pawn and without any capture. (See [Article 9.3](#9-3))
 
@@ -207,7 +207,7 @@ After black kingside castling
 
 ### Article 8: The recording of the moves
 
-1. <a name="8-1"></a>In the course of play each player is required to record his own moves and those of his opponent in the correct manner, move after move, as clearly and legibily as possible, in the  algebraic   notation  (See   [Appendix C]((#c-algebraic-notation))),  on  the  scoresheet   prescribed   for  the competition.
+1. <a name="8-1"></a>In the course of play each player is required to record his own moves and those of his opponent in the correct manner, move after move, as clearly and legibily as possible, in the  algebraic   notation  (See   [Appendix C](#c-algebraic-notation)),  on  the  scoresheet   prescribed   for  the competition.
 
     It  is  forbidden  to  write  the  moves  in  advance,  unless  the  player  is  claiming  a  draw according  to  Article  [9.2](#9-2),  or [9.3](#9-3)  or  adjourning  a  game  according  to the  Guidelines  of [Adjourned Games point 1.a](#G-1-1).
 
@@ -465,7 +465,7 @@ Sample game:
       1. inform the  visually  handicapped  player  only  at  his request  of the  number  of moves completed and the time used up by both players
       1. claim the game in cases where the time limit has been exceeded and inform the controller when the sighted player has touched one of his pieces
       1. carry out the necessary formalities in case the game is adjourned.
-   1. If the visually handicapped player does not make use of an assistant, the sighted player may make use of one who shall carry out the duties mentioned in points [9.a](#E-9-1) and [9.b](E-9-2).
+   1. If the visually handicapped player does not make use of an assistant, the sighted player may make use of one who shall carry out the duties mentioned in points [9.a](#E-9-1) and [9.b](#E-9-2).
 
 ### F. Chess960 Rules
 
