@@ -62,66 +62,89 @@ These pieces are as follows:
 
 | Piece | Symbol |
 |-------|--------|
-| A white king | |
-| A white queen | |
-| Two white rooks | |
-| Two white bishops | |
-| Two white knights | |
-| Eight white pawns | |
-| A black king | |
-| A black queen | |
-| Two black rooks | |
-| Two black bishops | |
-| Two black knights | |
+| A white king | ![White King](images/loc-wk.png)
+| A white queen | ![White Queen](images/loc-wq.png) |
+| Two white rooks | ![White Rook](images/loc-wr.png)  |
+| Two white bishops | ![White Bishop](images/loc-wb.png)  |
+| Two white knights | ![White Knight](images/loc-wn.png)  |
+| Eight white pawns | ![White Pawn](images/loc-wp.png)  |
+| A black king | ![Black King](images/loc-bk.png) |
+| A black queen | ![Black Queen](images/loc-bq.png) |
+| Two black rooks |![Black Rook](images/loc-br.png) |
+| Two black bishops |![Black Bishop](images/loc-bb.png) |
+| Two black knights |![Black Knight](images/loc-bn.png) |
+| Eight black pawns | ![Black Pawn](images/loc-bp.png) |
 
-1. The initial position of the pieces on the chessboard is as follows:
+1. The initial position of the pieces on the chessboard is as follows
 
-1. The  eight  vertical  columns  of  squares  are  called  ‘files’.  The  eight  horizontal rows  of squares are called ‘ranks’. A straight line of squares of the same colour, running from one edge of the board to an adjacent edge, is called a ‘diagonal’.
+     ![Initial Position](images/loc-initial-position.png)
+
+2. The  eight  vertical  columns  of  squares  are  called  ‘files’.  The  eight  horizontal rows  of squares are called ‘ranks’. A straight line of squares of the same colour, running from one edge of the board to an adjacent edge, is called a ‘diagonal’.
 
 ### Article 3: The moves of the pieces
 
 1. It is not permitted to move a piece to a square occupied by a piece of the same colour.  If a piece moves to a square occupied by an opponent's piece the latter  is captured and removed from the chessboard  as part of the same  move. A piece  is said to attack an opponent's  piece  if the  piece  could  make  a  capture  on that  square  according  to the Articles 3.2 to 3.8.<br/>
 A piece is considered to attack a square, even if such a piece is constrained from moving to that square  because  it would then leave or place the king of its own colour under attack.
 1. The bishop may move to any square along a diagonal on which it stands.
+
+    ![Bishop moves](images/loc-move-bishop.png)
 1. The rook may move to any square along the file or the rank on which it stands.
+
+    ![Rook moves](images/loc-move-rook.png)
 1. The queen may move to any square along the file, the rank or a diagonal  on which it stands.
+
+    ![Queen moves](images/loc-move-queen.png)
 1. When making these moves the bishop, rook or queen may not move over any intervening pieces.
 1. The knight may move to one of the squares nearest to that on which it stands but not on the same rank, file or diagonal.
+
+    ![Knight moves](images/loc-move-knight.png)
 1. Pawn moves
    1. The pawn may move forward to the unoccupied square immediately in front of it on the same file, or
    2. on its first move the pawn may move as in 3.7.a or alternatively it may advance two squares along the same file provided both squares are unoccupied, or
    3. the  pawn  may  move  to  a  square  occupied  by  an  opponent's  piece,  which  is diagonally in front of it on an adjacent file, capturing that piece.
-   4. A pawn attacking a square crossed by an opponent's pawn which has advanced two squares in
-   one move from its original square may capture this opponent's pawn as though the latter had been
-   moved only one square. This capture is only legal on the move following this advance and is called
-   an ‘en passant’ capture.
+
+       ![Pawn captures](images/loc-capture-pawn.png)
+   4. A pawn attacking a square crossed by an opponent's pawn which has advanced two squares in one move from its original square may capture this opponent's pawn as though the latter had been moved only one square. This capture is only legal on the move following this advance and is called an ‘en passant’ capture.
+
+       ![En Passent capture](images/loc-en-passent.png)
    5. When  a  pawn  reaches  the  rank  furthest  from  its  starting  position  it  must  be exchanged as part of the same move on the same square for a new queen, rook, bishop or knight of the same colour. The player's choice is not restricted to pieces that have been captured previously. This exchange of a pawn for another piece is called ‘promotion’ and the effect of the new piece is immediate.
 
 1. King moves
    1. There are two different ways of moving the king:
-   by moving to any adjoining square not attacked by one or more of the opponent's pieces
 
-   or by ‘castling’. This is a move of the king and either rook of the same colour along the  player's first  rank,  counting  as  a  single  move  of  the  king  and  executed  as follows: the king is transferred  from its original  square two squares towards the rook on its original square, then that rook is transferred to the square the king has just crossed.
+      by moving to any adjoining square not attacked by one or more of the opponent's pieces
 
-Before white kingside castling
-Before black queenside castling
+      ![King moves](images/loc-move-king.png)
 
-After white kingside castling
-After black queenside cart/ing
+      or by ‘castling’. This is a move of the king and either rook of the same colour along the  player's first  rank,  counting  as  a  single  move  of  the  king  and  executed  as follows: the king is transferred  from its original  square two squares towards the rook on its original square, then that rook is transferred to the square the king has just crossed.
 
-Before white queenside castling
-Before black kingside castling
+      ![Before Castling](images/loc-before-castling1.png)
+      Before white kingside castling
 
-After white queenside castling
-After black kingside castling
+      Before black queenside castling
+
+      ![After Castling](images/loc-after-castling1.png)
+      After white kingside castling
+
+      After black queenside cart/ing
+
+      ![Before Castling](images/loc-before-castling2.png)
+      Before white queenside castling
+
+      Before black kingside castling
+
+      ![After Castling](images/loc-after-castling2.png)
+      After white queenside castling
+
+      After black kingside castling
 
    1. The right to castle has been lost:
        1. if the king has already moved, or
        2. with a rook that has already moved.
-   2. Castling is prevented temporarily:
+   1. Castling is prevented temporarily:
        1. if the  square  on  which the  king stands,  or the square  which  it  must cross, or the square which it is to occupy, is attacked by one or more of the opponent's pieces, or
        2. if there is any piece between the king and the rook with which castling is to be effected.
-   3. The king is said to be 'in check' if it is attacked by one or more of the opponent's pieces, even if such pieces are constrained from moving to that square because they would then leave or place their own king in check. No piece can be moved that will either expose the king of the same colour to check or leave that king in check.
+   1. The king is said to be 'in check' if it is attacked by one or more of the opponent's pieces, even if such pieces are constrained from moving to that square because they would then leave or place their own king in check. No piece can be moved that will either expose the king of the same colour to check or leave that king in check.
 
 ### Article 4: The act of moving the pieces
 
@@ -350,14 +373,10 @@ K=king, Q=queen,  R=rook,  B=bishop,  N=knight.  (In  the  case  of  the  knight
 6. The  eight  ranks  (from  bottom to top  for  White  and from top to  bottom  for  Black) are numbered 1, 2, 3, 4, 5, 6, 7, 8, respectively. Consequently, in the initial position the white pieces and pawns are placed on the first and second ranks; the black pieces and pawns on the eighth and seventh ranks.
 7. As a consequence of the previous rules, each of the sixty-four squares is invariably indicated by a unique combination of a letter and a number.
 
-    a8 b8 c8 d8 e8 f8 g8 h8
-    a7 b7 c7  d7 e7  f7  g7  h7
-    a6 b6 c6 d6 e6 f6  g6 h6
-    a5 b5 c5  d5 e5  f5  g5  h5
-    a4 b4 c4 d4 e4 f4  g4 h4
-    a3 b3 c3  d3 e3  f3 g3 h3
-    a2 b2 c2 d2 e2 d2  g2 h2
-    a1 b1 c1 d1 e1 f1 g1 h1
+    ![Example squares](images/loc-example-squares.png)
+
+    White pawn on e2, black queen on g6.
+
 8. Each move of a piece is indicated by a) the first letter of the name of the piece in question and b) the square of arrival. There is no hyphen between a) and b). Examples: Be5, Nf3, Rd1. In the case of pawns, only the square of arrival is indicated. Examples: e5, d4, a5.
 9. When a piece makes a capture, an x is inserted between a) the first letter of the name of the piece in question and b) the square of arrival. Examples: Bxe5, Nxf3, Rxd1.
 When a pawn makes a capture, the file of departure must be indicated, then an x, then the square of arrival. Examples: dxe5, gxf3, axb5. In the case of an ‘en passante’ capture, the square of arrival is given as the square on which the capturing pawn finally rests and ‘e.p.’ is appended to the notation. Example: exd6 e.p.
