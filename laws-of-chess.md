@@ -119,21 +119,25 @@ A piece is considered to attack a square, even if such a piece is constrained fr
       or by ‘castling’. This is a move of the king and either rook of the same colour along the  player's first  rank,  counting  as  a  single  move  of  the  king  and  executed  as follows: the king is transferred  from its original  square two squares towards the rook on its original square, then that rook is transferred to the square the king has just crossed.
 
       ![Before Castling](images/loc-before-castling1.png)
+
       Before white kingside castling
 
       Before black queenside castling
 
       ![After Castling](images/loc-after-castling1.png)
+
       After white kingside castling
 
       After black queenside cart/ing
 
       ![Before Castling](images/loc-before-castling2.png)
+
       Before white queenside castling
 
       Before black kingside castling
 
       ![After Castling](images/loc-after-castling2.png)
+
       After white queenside castling
 
       After black kingside castling
@@ -253,7 +257,7 @@ otherwise.
 1. <a name="9-1"></a>Defined rules for draw
    1. The  rules  of  a  competition  may  specify  that  players  cannot  agree  to  a  draw, whether in less than a specified number of moves or at all, without the consent of the arbiter.
    2. If the rules of a competition allow a draw agreement the following apply:
-      1. A player wishing to offer a draw shall do so after having made a move on the chessboard and before stopping his clock and starting the opponent's  clock. An offer at any other time during play is still valid but Article 12.6 must be considered. No conditions can be attached to the offer. In both cases the offer cannot be withdrawn and remains valid until the opponent accepts it, rejects it  orally,  rejects  it  by  touching  a  piece  with  the  intention  of  moving  or capturing it, or the game is concluded in some other way.
+      1. A player wishing to offer a draw shall do so after having made a move on the chessboard and before stopping his clock and starting the opponent's  clock. An offer at any other time during play is still valid but [Article 12.6](#12.6) must be considered. No conditions can be attached to the offer. In both cases the offer cannot be withdrawn and remains valid until the opponent accepts it, rejects it  orally,  rejects  it  by  touching  a  piece  with  the  intention  of  moving  or capturing it, or the game is concluded in some other way.
       2. The offer of a draw shall be noted by each player on his scoresheet  with a symbol. (See [Appendix C.13](#C-13))
       3. A claim of a draw under Article [9.2](#9-2), [9.3](#9-3) or [10.2](#10-2) shall be considered to be an offer of a draw.
 1. <a name="9-2"></a>The game is drawn upon a correct claim by the player having the move, when the same position, for at least the third time (not necessarily by a repetition of moves):
@@ -302,7 +306,7 @@ otherwise.
    1. Smoking is permitted only in the section of the venue designated by the arbiter .
 1. The scoresheet shall be used only for recording the moves, the times of the clocks, the offers of a draw, and matters relating to a claim and other relevant data.
 1. Players who have finished their games shall be considered to be spectators.
-1. It is forbidden to distract or annoy the opponent in any manner whatsoever. This includes unreasonable  claims, unreasonable  offers of a draw or the introduction  of a source of noise into the playing area.
+1. <a name="12.6"></a>It is forbidden to distract or annoy the opponent in any manner whatsoever. This includes unreasonable  claims, unreasonable  offers of a draw or the introduction  of a source of noise into the playing area.
 1. Infraction  of any part of Articles 12.1 to 12.6 shall lead to penalties in accordance  with [Article 13.4](#13-4).
 1. Persistent refusal by a player to comply with the Laws of Chess shall be penalised by loss of the game. The arbiter shall decide the score of the opponent.
 1. If both players are found guilty according to Article 12.8, the game shall be declared lost by both players.
@@ -367,7 +371,7 @@ Description of the Algebraic System
 1. In this description, ‘piece’ means a piece other than a pawn.
 2. Each  piece  is indicated  by the first letter, a capital  letter, of its name. Example:  
 K=king, Q=queen,  R=rook,  B=bishop,  N=knight.  (In  the  case  of  the  knight,  for  the  sake  of convenience, N is used.)
-3. For the first letter of the name of the pieces, each player is free to use the first letter of the name which is commonly used in his country. Examples: F=fou (French for bishop), L=loper (Dutch   for  bishop).  In  printed   periodicals,   the  use  of  figurines   for  the  pieces is recommended.
+3. <a name="C-3"></a>For the first letter of the name of the pieces, each player is free to use the first letter of the name which is commonly used in his country. Examples: F=fou (French for bishop), L=loper (Dutch   for  bishop).  In  printed   periodicals,   the  use  of  figurines   for  the  pieces is recommended.
 4. Pawns are not indicated by their first letter, but are recognized  by the absence of such a letter. Examples: e5, d4, a5.
 5. The eight files (from the left to right for White and from right to left for Black) are indicated by the small letters, a, b, c, d, e, f, g, and h, respectively.
 6. The  eight  ranks  (from  bottom to top  for  White  and from top to  bottom  for  Black) are numbered 1, 2, 3, 4, 5, 6, 7, 8, respectively. Consequently, in the initial position the white pieces and pawns are placed on the first and second ranks; the black pieces and pawns on the eighth and seventh ranks.
@@ -378,8 +382,8 @@ K=king, Q=queen,  R=rook,  B=bishop,  N=knight.  (In  the  case  of  the  knight
     White pawn on e2, black queen on g6.
 
 8. Each move of a piece is indicated by a) the first letter of the name of the piece in question and b) the square of arrival. There is no hyphen between a) and b). Examples: Be5, Nf3, Rd1. In the case of pawns, only the square of arrival is indicated. Examples: e5, d4, a5.
-9. When a piece makes a capture, an x is inserted between a) the first letter of the name of the piece in question and b) the square of arrival. Examples: Bxe5, Nxf3, Rxd1.
-When a pawn makes a capture, the file of departure must be indicated, then an x, then the square of arrival. Examples: dxe5, gxf3, axb5. In the case of an ‘en passante’ capture, the square of arrival is given as the square on which the capturing pawn finally rests and ‘e.p.’ is appended to the notation. Example: exd6 e.p.
+9. <a name="C-9"></a>When a piece makes a capture, an x is inserted between a) the first letter of the name of the piece in question and b) the square of arrival. Examples: Bxe5, Nxf3, Rxd1.
+When a pawn makes a capture, the file of departure must be indicated, then an x, then the square of arrival. Examples: dxe5, gxf3, axb5. In the case of an ‘en passant’ capture, the square of arrival is given as the square on which the capturing pawn finally rests and ‘e.p.’ is appended to the notation. Example: exd6 e.p.
 10. If two identical pieces can move to the same square, the piece that is moved is indicated as follows:
     1. If both pieces are on the same rank: by a) the first letter of the name of the piece, b) the file of departure, and c) the square of arrival.
     2. If both pieces are on the same file: by a) the first letter of the name of the piece, b) the rank of the square of departure, and c) the square of arrival.
@@ -392,25 +396,26 @@ When a pawn makes a capture, the file of departure must be indicated, then an x,
        3. There are two knights, on the squares h2 and d4, and one of them moves to the square f3: either Nhf3 or Ndf3, as the case may be.
        If a capture takes place on the square f3, the previous examples are changed by the insertion of an x: 1) either Ngxf3 or Nexf3, 2) either N5xf3 or N1xf3, 3) either Nhxf3 or Ndxf3, as the case may be.
 11. If two pawns can capture the same piece or pawn of the opponent, the pawn that is moved is indicated by a) the letter of the file of departure, b) an x, c) the square of arrival. Example: If there are white pawns on squares c4 and e4 and a black pawn or piece on the square d5, the notation for White's move is either cxd5 or exd5, as the case may be.
-12. In  the  case  of  the  promotion  of  a  pawn, the  actual  pawn  move  is  indicated,  followed immediately by the first letter of the new piece. Examples: d8Q f8N, b1B, g1R.
+12. <a name="C-12"></a>In  the  case  of  the  promotion  of  a  pawn, the  actual  pawn  move  is  indicated,  followed immediately by the first letter of the new piece. Examples: d8Q f8N, b1B, g1R.
 13. <a name="C-13"></a>The offer of a draw shall be marked as (=).
 
 Essential abbreviations
 
 | Abbreviation | Meaning |
 |--------------|---------|
-| O-O  | castling with rook h1or rook h8 (kingside castling) |
+| O-O  | castling with rook h1 or rook h8 (kingside castling) |
 | O-O-O |castling with rook a1 or rook a8 (queenside castling) |
 | x | captures |
 | + | check |
 | ++ or # | checkmate |
-| e.p. | captures ‘en passante’ |
+| e.p. | captures ‘en passant’ |
 
 It is not mandatory to record the check, the checkmate and capturing on the scoresheet.
 
 Sample game:
 
-    1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6e.p. Nxd6 7. Bg5 Nc6 8. Qe3+3 Be7 9. Nbd2 0-0 10. 0-0-0 Re8 11. Kb1 (=)
+    1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6e.p. 
+    Nxd6 7. Bg5 Nc6 8. Qe3+ Be7 9. Nbd2 0-0 10. 0-0-0 Re8 11. Kb1 (=)
 
 ### D. Quickplay finishes where no arbiter is present in the venue
 
