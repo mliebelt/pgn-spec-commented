@@ -1,4 +1,5 @@
-# <a name="standard"/></a> Standard: Portable Game Notation Specification and Implementation Guide
+<a name="standard"></a>
+# Standard: Portable Game Notation Specification and Implementation Guide
 
 This file was copied from [PGN standard 1994-03-12](https://ia802908.us.archive.org/26/items/pgn-standard-1994-03-12/PGN_standard_1994-03-12.txt), on 2021-02-21. This reference was taken from [wikipedia on Portable Game Notation](https://en.wikipedia.org/wiki/Portable_Game_Notation).
 
@@ -10,7 +11,7 @@ Coordinator: Steven J. Edwards (send comments to sje@world.std.com)
 
 ## Table of Contents
 
-- [<a name="standard"/></a> Standard: Portable Game Notation Specification and Implementation Guide](#-standard-portable-game-notation-specification-and-implementation-guide)
+- [Standard: Portable Game Notation Specification and Implementation Guide](#standard)
   - [Table of Contents](#table-of-contents)
   - [0: Preface](#0-preface)
   - [1: Introduction](#1-introduction)
@@ -18,7 +19,7 @@ Coordinator: Steven J. Edwards (send comments to sje@world.std.com)
     - [2.1: Data interchange incompatibility](#21-data-interchange-incompatibility)
     - [2.2: Specification goals](#22-specification-goals)
     - [2.3: A sample PGN game](#23-a-sample-pgn-game)
-    - [<a name="3-formats-import-and-export"/></a> 3: Formats: import and export](#-3-formats-import-and-export)
+    - [3: Formats: import and export](#3-formats-import-and-export)
     - [3.1: Import format allows for manually prepared data](#31-import-format-allows-for-manually-prepared-data)
     - [3.2: Export format used for program generated output](#32-export-format-used-for-program-generated-output)
       - [3.2.1: Byte equivalence](#321-byte-equivalence)
@@ -47,7 +48,7 @@ Coordinator: Steven J. Edwards (send comments to sje@world.std.com)
       - [8.2.2: Movetext move number indications](#822-movetext-move-number-indications)
         - [8.2.2.1: Import format move number indications](#8221-import-format-move-number-indications)
         - [8.2.2.2: Export format move number indications](#8222-export-format-move-number-indications)
-      - [<a name="823-movetext-san-standard-algebraic-notation"> 8.2.3: Movetext SAN (Standard Algebraic Notation)</a>](#-823-movetext-san-standard-algebraic-notation)
+      - [8.2.3: Movetext SAN (Standard Algebraic Notation)](#823-movetext-san-standard-algebraic-notation)
         - [8.2.3.1: Square identification](#8231-square-identification)
         - [8.2.3.2: Piece identification](#8232-piece-identification)
         - [8.2.3.3: Basic SAN move construction](#8233-basic-san-move-construction)
@@ -56,7 +57,7 @@ Coordinator: Steven J. Edwards (send comments to sje@world.std.com)
         - [8.2.3.6: SAN move length](#8236-san-move-length)
         - [8.2.3.7: Import and export SAN](#8237-import-and-export-san)
         - [8.2.3.8: SAN move suffix annotations](#8238-san-move-suffix-annotations)
-      - [<a name="824-movetext-nag-numeric-annotation-glyph"> 8.2.4: Movetext NAG (Numeric Annotation Glyph)</a>](#-824-movetext-nag-numeric-annotation-glyph)
+      - [8.2.4: Movetext NAG (Numeric Annotation Glyph)](#824-movetext-nag-numeric-annotation-glyph)
       - [8.2.5: Movetext RAV (Recursive Annotation Variation)](#825-movetext-rav-recursive-annotation-variation)
       - [8.2.6: Game Termination Markers](#826-game-termination-markers)
   - [9: Supplemental tag names](#9-supplemental-tag-names)
@@ -159,11 +160,11 @@ Coordinator: Steven J. Edwards (send comments to sje@world.std.com)
         - [16.2.5.9: Opcode "draw_claim": claim a draw](#16259-opcode-draw_claim-claim-a-draw)
         - [16.2.5.10: Opcode "draw_offer": offer a draw](#162510-opcode-draw_offer-offer-a-draw)
       - [16.2.5.11: Opcode "draw_reject": reject a draw offer](#162511-opcode-draw_reject-reject-a-draw-offer)
-        - [16.2.5.12: Opcode "eco": _Encyclopedia of Chess Openings_ opening code](#162512-opcode-eco-encyclopedia-of-chess-openings-opening-code)
+        - [16.2.5.12: Opcode "eco": Encyclopedia of Chess Openings_opening code](#162512-opcode-eco-encyclopedia-of-chess-openings-opening-code)
         - [16.2.5.13: Opcode "fmvn": fullmove number](#162513-opcode-fmvn-fullmove-number)
         - [16.2.5.14: Opcode "hmvc": halfmove clock](#162514-opcode-hmvc-halfmove-clock)
         - [16.2.5.15: Opcode "id": position identification](#162515-opcode-id-position-identification)
-        - [16.2.5.16: Opcode "nic": _New In Chess_ opening code](#162516-opcode-nic-new-in-chess-opening-code)
+        - [16.2.5.16: Opcode "nic": New In Chess_opening code](#162516-opcode-nic-new-in-chess-opening-code)
         - [16.2.5.17: Opcode "noop": no operation](#162517-opcode-noop-no-operation)
         - [16.2.5.18: Opcode "pm": predicted move](#162518-opcode-pm-predicted-move)
         - [16.2.5.19: Opcode "pv": predicted variation](#162519-opcode-pv-predicted-variation)
@@ -254,8 +255,8 @@ Although its description may seem rather lengthy, PGN is actually fairly simple.
     f3 Bc8 34. Kf2 Bf5 35. Ra7 g6 36. Ra6+ Kc5 37. Ke1 Nf4 38. g3 Nxh3 39. Kd2 Kb5
     40. Rd6 Kc5 41. Ra6 Nf2 42. g4 Bd3 43. Re6 1/2-1/2
 
-
-### <a name="3-formats-import-and-export"/></a> 3: Formats: import and export
+<a name="3-formats-import-and-export"/></a>
+## 3: Formats: import and export
 
 There are two formats in the PGN specification.  These are the "import" format and the "export" format.  These are the two different ways of formatting the same PGN data according to its source.  The details of the two formats are described throughout the following sections of this document.
 
@@ -520,7 +521,8 @@ All white move elements have a preceding move number indication.  A black move e
 
 There are no other cases where move number indications appear in PGN export format.
 
-#### <a name="823-movetext-san-standard-algebraic-notation"> 8.2.3: Movetext SAN (Standard Algebraic Notation)</a>
+<a id="823-movetext-san-standard-algebraic-notation"></a>
+#### 8.2.3: Movetext SAN (Standard Algebraic Notation)
 
 SAN (Standard Algebraic Notation) is a representation standard for chess moves using the ASCII Latin alphabet.
 
@@ -590,8 +592,8 @@ Import format PGN allows for the use of traditional suffix annotations for moves
 
 When exported, a move suffix annotation is translated into the corresponding Numeric Annotation Glyph as described in a later section of this document.  For example, if the single move symbol "Qxa8?" appears in an import format PGN movetext, it would be replaced with the two adjacent symbols "Qxa8 $2".
 
-
-#### <a name="824-movetext-nag-numeric-annotation-glyph"> 8.2.4: Movetext NAG (Numeric Annotation Glyph)</a>
+<a name="824-movetext-nag-numeric-annotation-glyph"></a>
+#### 8.2.4: Movetext NAG (Numeric Annotation Glyph)
 
 An NAG (Numeric Annotation Glyph) is a movetext element that is used to indicate a simple annotation in a language independent manner.  An NAG is formed from a dollar sign ("$") with a non-negative decimal integer suffix.  The non-negative integer must be from zero to 255 in value.
 
@@ -791,149 +793,148 @@ Other NAG values are reserved for future definition.
 Note: the number assignments listed below should be considered preliminary in
 nature; they are likely to be changed as a result of reviewer feedback.
 
-| NAG  | Interpretation                                                                |
-|-----:| ------------------------------------------------------------------------------|
-| 0    |  null annotation
-| 1    |  good move (traditional "!")
-| 2    |  poor move (traditional "?")
-| 3    |  very good move (traditional "!!")
-| 4    |  very poor move (traditional "??")
-| 5    |  speculative move (traditional "!?")
-| 6    |  questionable move (traditional "?!")
-| 7    |  forced move (all others lose quickly)
-| 8    |  singular move (no reasonable alternatives)
-| 9    |  worst move
-| 10   |  drawish position
-| 11   |  equal chances, quiet position
-| 12   |  equal chances, active position
-| 13   |  unclear position
-| 14   |  White has a slight advantage
-| 15   |  Black has a slight advantage
-| 16   |  White has a moderate advantage
-| 17   |  Black has a moderate advantage
-| 18   |  White has a decisive advantage
-| 19   |  Black has a decisive advantage
-| 20   |  White has a crushing advantage (Black should resign)
-| 21   |  Black has a crushing advantage (White should resign)
-| 22   |  White is in zugzwang
-| 23   |  Black is in zugzwang
-| 24   |  White has a slight space advantage
-| 25   |  Black has a slight space advantage
-| 26   |  White has a moderate space advantage
-| 27   |  Black has a moderate space advantage
-| 28   |  White has a decisive space advantage
-| 29   |  Black has a decisive space advantage
-| 30   |  White has a slight time (development) advantage
-| 31   |  Black has a slight time (development) advantage
-| 32   |  White has a moderate time (development) advantage
-| 33   |  Black has a moderate time (development) advantage
-| 34   |  White has a decisive time (development) advantage
-| 35   |  Black has a decisive time (development) advantage
-| 36   |  White has the initiative
-| 37   |  Black has the initiative
-| 38   |  White has a lasting initiative
-| 39   |  Black has a lasting initiative
-| 40   |  White has the attack
-| 41   |  Black has the attack
-| 42   |  White has insufficient compensation for material deficit
-| 43   |  Black has insufficient compensation for material deficit
-| 44   |  White has sufficient compensation for material deficit
-| 45   |  Black has sufficient compensation for material deficit
-| 46   |  White has more than adequate compensation for material deficit
-| 47   |  Black has more than adequate compensation for material deficit
-| 48   |  White has a slight center control advantage
-| 49   |  Black has a slight center control advantage
-| 50   |  White has a moderate center control advantage
-| 51   |  Black has a moderate center control advantage
-| 52   |  White has a decisive center control advantage
-| 53   |  Black has a decisive center control advantage
-| 54   |  White has a slight kingside control advantage
-| 55   |  Black has a slight kingside control advantage
-| 56   |  White has a moderate kingside control advantage
-| 57   |  Black has a moderate kingside control advantage
-| 58   |  White has a decisive kingside control advantage
-| 59   |  Black has a decisive kingside control advantage
-| 60   |  White has a slight queenside control advantage
-| 61   |  Black has a slight queenside control advantage
-| 62   |  White has a moderate queenside control advantage
-| 63   |  Black has a moderate queenside control advantage
-| 64   |  White has a decisive queenside control advantage
-| 65   |  Black has a decisive queenside control advantage
-| 66   |  White has a vulnerable first rank
-| 67   |  Black has a vulnerable first rank
-| 68   |  White has a well protected first rank
-| 69   |  Black has a well protected first rank
-| 70   |  White has a poorly protected king
-| 71   |  Black has a poorly protected king
-| 72   |  White has a well protected king
-| 73   |  Black has a well protected king
-| 74   |  White has a poorly placed king
-| 75   |  Black has a poorly placed king
-| 76   |  White has a well placed king
-| 77   |  Black has a well placed king
-| 78   |  White has a very weak pawn structure
-| 79   |  Black has a very weak pawn structure
-| 80   |  White has a moderately weak pawn structure
-| 81   |  Black has a moderately weak pawn structure
-| 82   |  White has a moderately strong pawn structure
-| 83   |  Black has a moderately strong pawn structure
-| 84   |  White has a very strong pawn structure
-| 85   |  Black has a very strong pawn structure
-| 86   |  White has poor knight placement
-| 87   |  Black has poor knight placement
-| 88   |  White has good knight placement
-| 89   |  Black has good knight placement
-| 90   |  White has poor bishop placement
-| 91   |  Black has poor bishop placement
-| 92   |  White has good bishop placement
-| 93   |  Black has good bishop placement
-| 84   |  White has poor rook placement
-| 85   |  Black has poor rook placement
-| 86   |  White has good rook placement
-| 87   |  Black has good rook placement
-| 98   |  White has poor queen placement
-| 99   |  Black has poor queen placement
-| 100  |  White has good queen placement
-| 101  |  Black has good queen placement
-| 102  |  White has poor piece coordination
-| 103  |  Black has poor piece coordination
-| 104  |  White has good piece coordination
-| 105  |  Black has good piece coordination
-| 106  |  White has played the opening very poorly
-| 107  |  Black has played the opening very poorly
-| 108  |  White has played the opening poorly
-| 109  |  Black has played the opening poorly
-| 110  |  White has played the opening well
-| 111  |  Black has played the opening well
-| 112  |  White has played the opening very well
-| 113  |  Black has played the opening very well
-| 114  |  White has played the middlegame very poorly
-| 115  |  Black has played the middlegame very poorly
-| 116  |  White has played the middlegame poorly
-| 117  |  Black has played the middlegame poorly
-| 118  |  White has played the middlegame well
-| 119  |  Black has played the middlegame well
-| 120  |  White has played the middlegame very well
-| 121  |  Black has played the middlegame very well
-| 122  |  White has played the ending very poorly
-| 123  |  Black has played the ending very poorly
-| 124  |  White has played the ending poorly
-| 125  |  Black has played the ending poorly
-| 126  |  White has played the ending well
-| 127  |  Black has played the ending well
-| 128  |  White has played the ending very well
-| 129  |  Black has played the ending very well
-| 130  |  White has slight counterplay
-| 131  |  Black has slight counterplay
-| 132  |  White has moderate counterplay
-| 133  |  Black has moderate counterplay
-| 134  |  White has decisive counterplay
-| 135  |  Black has decisive counterplay
-| 136  |  White has moderate time control pressure
-| 137  |  Black has moderate time control pressure
-| 138  |  White has severe time control pressure
-| 139  |  Black has severe time control pressure
-
+| NAG | Interpretation                                                 |
+|----:|----------------------------------------------------------------|
+|   0 | null annotation                                                |
+|   1 | good move (traditional "!")                                    |
+|   2 | poor move (traditional "?")                                    |
+|   3 | very good move (traditional "!!")                              |
+|   4 | very poor move (traditional "??")                              |
+|   5 | speculative move (traditional "!?")                            |
+|   6 | questionable move (traditional "?!")                           |
+|   7 | forced move (all others lose quickly)                          |
+|   8 | singular move (no reasonable alternatives)                     |
+|   9 | worst move                                                     |
+|  10 | drawish position                                               |
+|  11 | equal chances, quiet position                                  |
+|  12 | equal chances, active position                                 |
+|  13 | unclear position                                               |
+|  14 | White has a slight advantage                                   |
+|  15 | Black has a slight advantage                                   |
+|  16 | White has a moderate advantage                                 |
+|  17 | Black has a moderate advantage                                 |
+|  18 | White has a decisive advantage                                 |
+|  19 | Black has a decisive advantage                                 |
+|  20 | White has a crushing advantage (Black should resign)           |
+|  21 | Black has a crushing advantage (White should resign)           |
+|  22 | White is in zugzwang                                           |
+|  23 | Black is in zugzwang                                           |
+|  24 | White has a slight space advantage                             |
+|  25 | Black has a slight space advantage                             |
+|  26 | White has a moderate space advantage                           |
+|  27 | Black has a moderate space advantage                           |
+|  28 | White has a decisive space advantage                           |
+|  29 | Black has a decisive space advantage                           |
+|  30 | White has a slight time (development) advantage                |
+|  31 | Black has a slight time (development) advantage                |
+|  32 | White has a moderate time (development) advantage              |
+|  33 | Black has a moderate time (development) advantage              |
+|  34 | White has a decisive time (development) advantage              |
+|  35 | Black has a decisive time (development) advantage              |
+|  36 | White has the initiative                                       |
+|  37 | Black has the initiative                                       |
+|  38 | White has a lasting initiative                                 |
+|  39 | Black has a lasting initiative                                 |
+|  40 | White has the attack                                           |
+|  41 | Black has the attack                                           |
+|  42 | White has insufficient compensation for material deficit       |
+|  43 | Black has insufficient compensation for material deficit       |
+|  44 | White has sufficient compensation for material deficit         |
+|  45 | Black has sufficient compensation for material deficit         |
+|  46 | White has more than adequate compensation for material deficit |
+|  47 | Black has more than adequate compensation for material deficit |
+|  48 | White has a slight center control advantage                    |
+|  49 | Black has a slight center control advantage                    |
+|  50 | White has a moderate center control advantage                  |
+|  51 | Black has a moderate center control advantage                  |
+|  52 | White has a decisive center control advantage                  |
+|  53 | Black has a decisive center control advantage                  |
+|  54 | White has a slight kingside control advantage                  |
+|  55 | Black has a slight kingside control advantage                  |
+|  56 | White has a moderate kingside control advantage                |
+|  57 | Black has a moderate kingside control advantage                |
+|  58 | White has a decisive kingside control advantage                |
+|  59 | Black has a decisive kingside control advantage                |
+|  60 | White has a slight queenside control advantage                 |
+|  61 | Black has a slight queenside control advantage                 |
+|  62 | White has a moderate queenside control advantage               |
+|  63 | Black has a moderate queenside control advantage               |
+|  64 | White has a decisive queenside control advantage               |
+|  65 | Black has a decisive queenside control advantage               |
+|  66 | White has a vulnerable first rank                              |
+|  67 | Black has a vulnerable first rank                              |
+|  68 | White has a well protected first rank                          |
+|  69 | Black has a well protected first rank                          |
+|  70 | White has a poorly protected king                              |
+|  71 | Black has a poorly protected king                              |
+|  72 | White has a well protected king                                |
+|  73 | Black has a well protected king                                |
+|  74 | White has a poorly placed king                                 |
+|  75 | Black has a poorly placed king                                 |
+|  76 | White has a well placed king                                   |
+|  77 | Black has a well placed king                                   |
+|  78 | White has a very weak pawn structure                           |
+|  79 | Black has a very weak pawn structure                           |
+|  80 | White has a moderately weak pawn structure                     |
+|  81 | Black has a moderately weak pawn structure                     |
+|  82 | White has a moderately strong pawn structure                   |
+|  83 | Black has a moderately strong pawn structure                   |
+|  84 | White has a very strong pawn structure                         |
+|  85 | Black has a very strong pawn structure                         |
+|  86 | White has poor knight placement                                |
+|  87 | Black has poor knight placement                                |
+|  88 | White has good knight placement                                |
+|  89 | Black has good knight placement                                |
+|  90 | White has poor bishop placement                                |
+|  91 | Black has poor bishop placement                                |
+|  92 | White has good bishop placement                                |
+|  93 | Black has good bishop placement                                |
+|  84 | White has poor rook placement                                  |
+|  85 | Black has poor rook placement                                  |
+|  86 | White has good rook placement                                  |
+|  87 | Black has good rook placement                                  |
+|  98 | White has poor queen placement                                 |
+|  99 | Black has poor queen placement                                 |
+| 100 | White has good queen placement                                 |
+| 101 | Black has good queen placement                                 |
+| 102 | White has poor piece coordination                              |
+| 103 | Black has poor piece coordination                              |
+| 104 | White has good piece coordination                              |
+| 105 | Black has good piece coordination                              |
+| 106 | White has played the opening very poorly                       |
+| 107 | Black has played the opening very poorly                       |
+| 108 | White has played the opening poorly                            |
+| 109 | Black has played the opening poorly                            |
+| 110 | White has played the opening well                              |
+| 111 | Black has played the opening well                              |
+| 112 | White has played the opening very well                         |
+| 113 | Black has played the opening very well                         |
+| 114 | White has played the middlegame very poorly                    |
+| 115 | Black has played the middlegame very poorly                    |
+| 116 | White has played the middlegame poorly                         |
+| 117 | Black has played the middlegame poorly                         |
+| 118 | White has played the middlegame well                           |
+| 119 | Black has played the middlegame well                           |
+| 120 | White has played the middlegame very well                      |
+| 121 | Black has played the middlegame very well                      |
+| 122 | White has played the ending very poorly                        |
+| 123 | Black has played the ending very poorly                        |
+| 124 | White has played the ending poorly                             |
+| 125 | Black has played the ending poorly                             |
+| 126 | White has played the ending well                               |
+| 127 | Black has played the ending well                               |
+| 128 | White has played the ending very well                          |
+| 129 | Black has played the ending very well                          |
+| 130 | White has slight counterplay                                   |
+| 131 | Black has slight counterplay                                   |
+| 132 | White has moderate counterplay                                 |
+| 133 | Black has moderate counterplay                                 |
+| 134 | White has decisive counterplay                                 |
+| 135 | Black has decisive counterplay                                 |
+| 136 | White has moderate time control pressure                       |
+| 137 | Black has moderate time control pressure                       |
+| 138 | White has severe time control pressure                         |
+| 139 | Black has severe time control pressure                         |
 
 ## 11: File names and directories
 
@@ -1173,161 +1174,160 @@ The primary PGN data archive repository is located at the ftp site chess.uoknor.
 
 International Olympic Committee country codes are employed for Site nation information because of their traditional use with the reporting of international sporting events.  Due to changes in geography and linguistic custom, some of the following may be incorrect or outdated.  Corrections and extensions should be sent via e-mail to the PGN coordinator whose address listed near the start of this document.
 
-| Country Code | Country                     |
-|--------------|-----------------------------|
-| AFG          | Afghanistan
-| AIR          | Aboard aircraft
-| ALB          | Albania
-| ALG          | Algeria
-| AND          | Andorra
-| ANG          | Angola
-| ANT          | Antigua
-| ARG          | Argentina
-| ARM          | Armenia
-| ATA          | Antarctica
-| AUS          | Australia
-| AZB          | Azerbaijan
-| BAN          | Bangladesh
-| BAR          | Bahrain
-| BHM          | Bahamas
-| BEL          | Belgium
-| BER          | Bermuda
-| BIH          | Bosnia and Herzegovina
-| BLA          | Belarus
-| BLG          | Bulgaria
-| BLZ          | Belize
-| BOL          | Bolivia
-| BRB          | Barbados
-| BRS          | Brazil
-| BRU          | Brunei
-| BSW          | Botswana
-| CAN          | Canada
-| CHI          | Chile
-| COL          | Columbia
-| CRA          | Costa Rica
-| CRO          | Croatia
-| CSR          | Czechoslovakia
-| CUB          | Cuba
-| CYP          | Cyprus
-| DEN          | Denmark
-| DOM          | Dominican Republic
-| ECU          | Ecuador
-| EGY          | Egypt
-| ENG          | England
-| ESP          | Spain
-| EST          | Estonia
-| FAI          | Faroe Islands
-| FIJ          | Fiji
-| FIN          | Finland
-| FRA          | France
-| GAM          | Gambia
-| GCI          | Guernsey-Jersey
-| GEO          | Georgia
-| GER          | Germany
-| GHA          | Ghana
-| GRC          | Greece
-| GUA          | Guatemala
-| GUY          | Guyana
-| HAI          | Haiti
-| HKG          | Hong Kong
-| HON          | Honduras
-| HUN          | Hungary
-| IND          | India
-| IRL          | Ireland
-| IRN          | Iran
-| IRQ          | Iraq
-| ISD          | Iceland
-| ISR          | Israel
-| ITA          | Italy
-| IVO          | Ivory Coast
-| JAM          | Jamaica
-| JAP          | Japan
-| JRD          | Jordan
-| JUG          | Yugoslavia
-| KAZ          | Kazakhstan
-| KEN          | Kenya
-| KIR          | Kyrgyzstan
-| KUW          | Kuwait
-| LAT          | Latvia
-| LEB          | Lebanon
-| LIB          | Libya
-| LIC          | Liechtenstein
-| LTU          | Lithuania
-| LUX          | Luxembourg
-| MAL          | Malaysia
-| MAU          | Mauritania
-| MEX          | Mexico
-| MLI          | Mali
-| MLT          | Malta
-| MNC          | Monaco
-| MOL          | Moldova
-| MON          | Mongolia
-| MOZ          | Mozambique
-| MRC          | Morocco
-| MRT          | Mauritius
-| MYN          | Myanmar
-| NCG          | Nicaragua
-| NET          | The Internet
-| NIG          | Nigeria
-| NLA          | Netherlands Antilles
-| NLD          | Netherlands
-| NOR          | Norway
-| NZD          | New Zealand
-| OST          | Austria
-| PAK          | Pakistan
-| PAL          | Palestine
-| PAN          | Panama
-| PAR          | Paraguay
-| PER          | Peru
-| PHI          | Philippines
-| PNG          | Papua New Guinea
-| POL          | Poland
-| POR          | Portugal
-| PRC          | People's Republic of China
-| PRO          | Puerto Rico
-| QTR          | Qatar
-| RIN          | Indonesia
-| ROM          | Romania
-| RUS          | Russia
-| SAF          | South Africa
-| SAL          | El Salvador
-| SCO          | Scotland
-| SEA          | At Sea
-| SEN          | Senegal
-| SEY          | Seychelles
-| SIP          | Singapore
-| SLV          | Slovenia
-| SMA          | San Marino
-| SPC          | Aboard spacecraft
-| SRI          | Sri Lanka
-| SUD          | Sudan
-| SUR          | Surinam
-| SVE          | Sweden
-| SWZ          | Switzerland
-| SYR          | Syria
-| TAI          | Thailand
-| TMT          | Turkmenistan
-| TRK          | Turkey
-| TTO          | Trinidad and Tobago
-| TUN          | Tunisia
-| UAE          | United Arab Emirates
-| UGA          | Uganda
-| UKR          | Ukraine
-| UNK          | Unknown
-| URU          | Uruguay
-| USA          | United States of America
-| UZB          | Uzbekistan
-| VEN          | Venezuela
-| VGB          | British Virgin Islands
-| VIE          | Vietnam
-| VUS          | U.S. Virgin Islands
-| WLS          | Wales
-| YEM          | Yemen
-| YUG          | Yugoslavia
-| ZAM          | Zambia
-| ZIM          | Zimbabwe
-| ZRE          | Zaire
-
+| Country Code | Country                    |
+|--------------|----------------------------|
+| AFG          | Afghanistan                |
+| AIR          | Aboard aircraft            |
+| ALB          | Albania                    |
+| ALG          | Algeria                    |
+| AND          | Andorra                    |
+| ANG          | Angola                     |
+| ANT          | Antigua                    |
+| ARG          | Argentina                  |
+| ARM          | Armenia                    |
+| ATA          | Antarctica                 |
+| AUS          | Australia                  |
+| AZB          | Azerbaijan                 |
+| BAN          | Bangladesh                 |
+| BAR          | Bahrain                    |
+| BHM          | Bahamas                    |
+| BEL          | Belgium                    |
+| BER          | Bermuda                    |
+| BIH          | Bosnia and Herzegovina     |
+| BLA          | Belarus                    |
+| BLG          | Bulgaria                   |
+| BLZ          | Belize                     |
+| BOL          | Bolivia                    |
+| BRB          | Barbados                   |
+| BRS          | Brazil                     |
+| BRU          | Brunei                     |
+| BSW          | Botswana                   |
+| CAN          | Canada                     |
+| CHI          | Chile                      |
+| COL          | Columbia                   |
+| CRA          | Costa Rica                 |
+| CRO          | Croatia                    |
+| CSR          | Czechoslovakia             |
+| CUB          | Cuba                       |
+| CYP          | Cyprus                     |
+| DEN          | Denmark                    |
+| DOM          | Dominican Republic         |
+| ECU          | Ecuador                    |
+| EGY          | Egypt                      |
+| ENG          | England                    |
+| ESP          | Spain                      |
+| EST          | Estonia                    |
+| FAI          | Faroe Islands              |
+| FIJ          | Fiji                       |
+| FIN          | Finland                    |
+| FRA          | France                     |
+| GAM          | Gambia                     |
+| GCI          | Guernsey-Jersey            |
+| GEO          | Georgia                    |
+| GER          | Germany                    |
+| GHA          | Ghana                      |
+| GRC          | Greece                     |
+| GUA          | Guatemala                  |
+| GUY          | Guyana                     |
+| HAI          | Haiti                      |
+| HKG          | Hong Kong                  |
+| HON          | Honduras                   |
+| HUN          | Hungary                    |
+| IND          | India                      |
+| IRL          | Ireland                    |
+| IRN          | Iran                       |
+| IRQ          | Iraq                       |
+| ISD          | Iceland                    |
+| ISR          | Israel                     |
+| ITA          | Italy                      |
+| IVO          | Ivory Coast                |
+| JAM          | Jamaica                    |
+| JAP          | Japan                      |
+| JRD          | Jordan                     |
+| JUG          | Yugoslavia                 |
+| KAZ          | Kazakhstan                 |
+| KEN          | Kenya                      |
+| KIR          | Kyrgyzstan                 |
+| KUW          | Kuwait                     |
+| LAT          | Latvia                     |
+| LEB          | Lebanon                    |
+| LIB          | Libya                      |
+| LIC          | Liechtenstein              |
+| LTU          | Lithuania                  |
+| LUX          | Luxembourg                 |
+| MAL          | Malaysia                   |
+| MAU          | Mauritania                 |
+| MEX          | Mexico                     |
+| MLI          | Mali                       |
+| MLT          | Malta                      |
+| MNC          | Monaco                     |
+| MOL          | Moldova                    |
+| MON          | Mongolia                   |
+| MOZ          | Mozambique                 |
+| MRC          | Morocco                    |
+| MRT          | Mauritius                  |
+| MYN          | Myanmar                    |
+| NCG          | Nicaragua                  |
+| NET          | The Internet               |
+| NIG          | Nigeria                    |
+| NLA          | Netherlands Antilles       |
+| NLD          | Netherlands                |
+| NOR          | Norway                     |
+| NZD          | New Zealand                |
+| OST          | Austria                    |
+| PAK          | Pakistan                   |
+| PAL          | Palestine                  |
+| PAN          | Panama                     |
+| PAR          | Paraguay                   |
+| PER          | Peru                       |
+| PHI          | Philippines                |
+| PNG          | Papua New Guinea           |
+| POL          | Poland                     |
+| POR          | Portugal                   |
+| PRC          | People's Republic of China |
+| PRO          | Puerto Rico                |
+| QTR          | Qatar                      |
+| RIN          | Indonesia                  |
+| ROM          | Romania                    |
+| RUS          | Russia                     |
+| SAF          | South Africa               |
+| SAL          | El Salvador                |
+| SCO          | Scotland                   |
+| SEA          | At Sea                     |
+| SEN          | Senegal                    |
+| SEY          | Seychelles                 |
+| SIP          | Singapore                  |
+| SLV          | Slovenia                   |
+| SMA          | San Marino                 |
+| SPC          | Aboard spacecraft          |
+| SRI          | Sri Lanka                  |
+| SUD          | Sudan                      |
+| SUR          | Surinam                    |
+| SVE          | Sweden                     |
+| SWZ          | Switzerland                |
+| SYR          | Syria                      |
+| TAI          | Thailand                   |
+| TMT          | Turkmenistan               |
+| TRK          | Turkey                     |
+| TTO          | Trinidad and Tobago        |
+| TUN          | Tunisia                    |
+| UAE          | United Arab Emirates       |
+| UGA          | Uganda                     |
+| UKR          | Ukraine                    |
+| UNK          | Unknown                    |
+| URU          | Uruguay                    |
+| USA          | United States of America   |
+| UZB          | Uzbekistan                 |
+| VEN          | Venezuela                  |
+| VGB          | British Virgin Islands     |
+| VIE          | Vietnam                    |
+| VUS          | U.S. Virgin Islands        |
+| WLS          | Wales                      |
+| YEM          | Yemen                      |
+| YUG          | Yugoslavia                 |
+| ZAM          | Zambia                     |
+| ZIM          | Zimbabwe                   |
+| ZRE          | Zaire                      |
 
 ## 16: Additional chess data standards
 
@@ -1546,7 +1546,7 @@ The opcode "draw_offer" is used to indicate that a draw is offered by the active
 
 The opcode "draw_reject" is used to indicate that a draw offer made after the move that lead to the indicated position is rejected by the active player.  This opcode takes no operands.
 
-##### 16.2.5.12: Opcode "eco": _Encyclopedia of Chess Openings_ opening code
+##### 16.2.5.12: Opcode "eco": Encyclopedia of Chess Openings opening code
 
 The opcode "eco" is used to associate an opening designation from the _Encyclopedia of Chess Openings_ taxonomy with the indicated position.  The opcode takes either a single string operand (the ECO opening name) or no operand at all.  If an operand is present, its value is associated with an "ECO" string register of the scanning program.  If there is no operand, the ECO string register of the scanning program is set to null.
 
@@ -1570,7 +1570,7 @@ The opcode "id" is used to provide a simple identifying label for the indicated 
 
 This opcode is intended for use with test suites used for measuring chessplaying program strength.  An example "id" operand for the seven hundred fifty seventh position of the one thousand one problems in Reinfeld's _1001 Winning Chess Sacrifices and Combinations_ would be "WCSAC.0757" while the fifteenth position in the twenty four problem Bratko-Kopec test suite would have an "id" operand of "BK.15".
 
-##### 16.2.5.16: Opcode "nic": _New In Chess_ opening code
+##### 16.2.5.16: Opcode "nic": New In Chess opening code
 
 The opcode "nic" is used to associate an opening designation from the _New In Chess_ taxonomy with the indicated position.  The opcode takes either a single string operand (the NIC opening name) or no operand at all.  If an operand is present, its value is associated with an "NIC" string register of the scanning program.  If there is no operand, the NIC string register of the scanning program is set to null.
 
@@ -1636,25 +1636,25 @@ English language piece names are used to define the letter set for identifying c
 
 For the above authors only, a list of alternative piece letter codes are provided:
 
-| Language  | pawn | knight | bishop | rook | queen | king |
-------------| -----|--------|--------|------|-------|------|
-Czech       | P    | J      | S      | V    | D     | K    |
-Danish      | B    | S      | L      | T    | D     | K    |
-Dutch       | O    | P      | L      | T    | D     | K    |
-English     | P    | N      | B      | R    | Q     | K    |
-Estonian    | P    | R      | O      | V    | L     | K    |
-Finnish     | P    | R      | L      | T    | D     | K    |
-French      | P    | C      | F      | T    | D     | R    |
-German      | B    | S      | L      | T    | D     | K    |
-Hungarian   | G    | H      | F      | B    | V     | K    |
-Icelandic   | P    | R      | B      | H    | D     | K    |
-Italian     | P    | C      | A      | T    | D     | R    |
-Norwegian   | B    | S      | L      | T    | D     | K    |
-Polish      | P    | S      | G      | W    | H     | K    |
-Portuguese  | P    | C      | B      | T    | D     | R    |
-Romanian    | P    | C      | N      | T    | D     | R    |
-Spanish     | P    | C      | A      | T    | D     | R    |
-Swedish     | B    | S      | L      | T    | D     | K    |
+| Language   | pawn | knight | bishop | rook | queen | king |
+|------------|------|--------|--------|------|-------|------|
+| Czech      | P    | J      | S      | V    | D     | K    |
+| Danish     | B    | S      | L      | T    | D     | K    |
+| Dutch      | O    | P      | L      | T    | D     | K    |
+| English    | P    | N      | B      | R    | Q     | K    |
+| Estonian   | P    | R      | O      | V    | L     | K    |
+| Finnish    | P    | R      | L      | T    | D     | K    |
+| French     | P    | C      | F      | T    | D     | R    |
+| German     | B    | S      | L      | T    | D     | K    |
+| Hungarian  | G    | H      | F      | B    | V     | K    |
+| Icelandic  | P    | R      | B      | H    | D     | K    |
+| Italian    | P    | C      | A      | T    | D     | R    |
+| Norwegian  | B    | S      | L      | T    | D     | K    |
+| Polish     | P    | S      | G      | W    | H     | K    |
+| Portuguese | P    | C      | B      | T    | D     | R    |
+| Romanian   | P    | C      | N      | T    | D     | R    |
+| Spanish    | P    | C      | A      | T    | D     | R    |
+| Swedish    | B    | S      | L      | T    | D     | K    |
 
 
 ## 18: Formal syntax
