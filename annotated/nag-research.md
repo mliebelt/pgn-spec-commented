@@ -96,30 +96,21 @@ ChessPad was referenced in the Wikipedia article, so I installed the current ver
 
 I took the following screenshots of some dialogs.
 
-![Chess Symbols](../images/nr-chesspad-symbols.png)
-
-![Chess Symbols](../images/nr-chesspad-exclamation-symbols.png)
-
-![Chess Symbols](../images/nr-chesspad-position-symbols.png)
+![Chess Symbols](../images/nr-chesspad-symbols.png) ![Chess Symbols Exclamation](../images/nr-chesspad-exclamation-symbols.png) ![Chess Symbols Position](../images/nr-chesspad-position-symbols.png)
 
 ## Synthesis of all known NAGs
 
 The following table takes the Wikipedia article, and adds some resources. This is how to read it:
 
 * NAG: Number used
-* Meaning: The known meaning of the NAG
-* Symbol: 
+* Meaning: The known meaning of the NAG, mostly taken from Wikipedia article
+* Symbol: The symbol (as unicode character or for CA Chess Fonts as image)
 * Unicode: in Hex format
+* CA Font: x or unicode
 * Lichess: Used and available in Lichess (see remarks below about special usage by Lichess)
-* Chesspad:
-* Chessbase: 
+* Chesspad: Used and available in Chesspad
+* Chessbase: Used and available in Chessbase
 
-/  / Meaning / Symbol /
-/----:/
-
-|  |  |  |  |  |  |  |  |
-|----:|---------|--------|---------------|---------+---------|----------|-----------|
-| 0   | not used |   |
 
 | NAG     | Meaning                                                         | Symbol      | Unicode (Hex) | CA Font | Lichess | Chesspad | Chessbase |
 |---------|-----------------------------------------------------------------|-------------|---------------|---------|---------|----------|-----------|
@@ -128,7 +119,7 @@ The following table takes the Wikipedia article, and adds some resources. This i
 | 2       | poor move or mistake                                            | ?           | U+003F        |         |         |          |           |
 | 3       | very good or brilliant move                                     | ‼           | U+203C        |         |         |          |           |
 | 4       | very poor move or blunder                                       | ⁇           | U+2047        |         |         |          |           |
-| 5       | speculative or interesting move                                 | ⁉	          | U+2049        |         |         |          |           |
+| 5       | speculative or interesting move                                 | ⁉	       | U+2049        |         |         |          |           |
 | 6       | questionable or dubious move                                    | ⁈           | U+2048        |         |         |          |           |
 | 7       | forced move (all others lose quickly) or only move              | □           | U+25A1        |         |         |          |           |
 | 8       | singular move (no reasonable alternatives)                      |             |               |         |         |          |           |
@@ -261,33 +252,33 @@ The following table takes the Wikipedia article, and adds some resources. This i
 | 135     | Black has decisive counterplay	                                 |             |               |         |         |          |           |
 | 136     | White has moderate time control pressure	                       |             |               |         |         |          |           |
 | 137     | Black has moderate time control pressure	                       |             |               |         |         |          |           |
-| 138     | White has severe time control pressure / zeitnot			     | ⨁           | U+2A01        |         |         |          |           |
+| 138     | White has severe time control pressure / zeitnot			             | ⨁           | U+2A01        |         |         |          |           |
 | 139     | Black has severe time control pressure / zeitnot                | ⨁           | U+2A01        |         |         | x        |           |
-| 140     | With the idea...		                                         | ∆           |               |         |         | x        |           |
-| 141     | Aimed against...		                                         | ∇           |               |         |         | x        |           |
-| 142     | Better is...			                                         | ⌓           | U+2313        |         |         | x        |           |
-| 143     | Worse is...			                                         | <=          |               |         |         | x        |           |
-| 144     | Equivalent is...		                                         | ==          |               |         |         | x        |           |
-| 145     | Editorial comment		                                         | RR          |               |         |         | x        |           |
+| 140     | With the idea...		                                              | ∆           |               |         |         | x        |           |
+| 141     | Aimed against...		                                              | ∇           |               |         |         | x        |           |
+| 142     | Better is...			                                                 | ⌓           | U+2313        |         |         | x        |           |
+| 143     | Worse is...			                                                  | <=          |               |         |         | x        |           |
+| 144     | Equivalent is...		                                              | ==          |               |         |         | x        |           |
+| 145     | Editorial comment		                                             | RR          |               |         |         | x        |           |
 | 146-219 | Not defined                                                     |             |               |         |         |          |           |
 | 220     | Diagram                                                         | ⬒ (UI only) |               |         |         | x        |           |
 | 221     | Diagram                                                         | ⬓ (UI only) |               |         |         | x        |           |
 | 222-237 | Not defined                                                     |             |               |         |         |          |           |
-| 238     | Space advantage			                                     | ○           | U+25CB        |         |         | x        |           |
+| 238     | Space advantage			                                              | ○           | U+25CB        |         |         | x        |           |
 | 239     | File (columns on the chessboard labeled  a-h)                   | ⇔           | U+21D4        |         |         | x        |           |
-| 240     | Diagonal			                                             | ⇗           | U+21D7        |         |         | x        |           |
-| 241     | Centre			                                                 | ⊞           | U+229E        |         |         | x        |           |
-| 242     | King-side			                                             | ⟫           | U+27EB        |         |         | x        |           |
-| 243     | Queen-side			                                             | ⟪           | U+27EA        |         |         | x        |           |
-| 244     | Weak point			                                             | ✕           | U+2715        |         |         | x        |           |
-| 245     | Ending			                                                 | ⊥           | U+22A5        |         |         | x        |           |
-| 246     | Bishop pair	                                                 |             |               |         |         | x        |           |
-| 247     | Opposite Bishops	                                             |             |               |         |         | x        |           |
-| 248     | Same Bishops	                                                 |             |               |         |         | x        |           |
-| 249     | Connected pawns	text                                         |             |               |         |         |          |           |
+| 240     | Diagonal			                                                     | ⇗           | U+21D7        |         |         | x        |           |
+| 241     | Centre			                                                       | ⊞           | U+229E        |         |         | x        |           |
+| 242     | King-side			                                                    | ⟫           | U+27EB        |         |         | x        |           |
+| 243     | Queen-side			                                                   | ⟪           | U+27EA        |         |         | x        |           |
+| 244     | Weak point			                                                   | ✕           | U+2715        |         |         | x        |           |
+| 245     | Ending			                                                       | ⊥           | U+22A5        |         |         | x        |           |
+| 246     | Bishop pair	                                                    |             |               |         |         | x        |           |
+| 247     | Opposite Bishops	                                               |             |               |         |         | x        |           |
+| 248     | Same Bishops	                                                   |             |               |         |         | x        |           |
+| 249     | Connected pawns	text                                            |             |               |         |         |          |           |
 | 250     | Isolated pawns	text                                             |             |               |         |         |          |           |
-| 251     | Doubled pawns	text                                             |             |               |         |         |          |           |
-| 252     | Passed pawn	                                                 |             |               |         |         | x        |           |
-| 253     | Pawn majority	text                                             |             |               |         |         |          |           |
-| 254     | With	                                                         |             |               |         |         | x        |           |
-| 255     | Without	                                                     |             |               |         |         | x        |           |
+| 251     | Doubled pawns	text                                              |             |               |         |         |          |           |
+| 252     | Passed pawn	                                                    |             |               |         |         | x        |           |
+| 253     | Pawn majority	text                                              |             |               |         |         |          |           |
+| 254     | With	                                                           |             |               |         |         | x        |           |
+| 255     | Without	                                                        |             |               |         |         | x        |           |
