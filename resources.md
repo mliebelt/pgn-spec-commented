@@ -18,6 +18,9 @@ There are some known places where the PGN specification can be found.
 
 * [PGN Specification and Implementation Guide (Supplement)](https://www.enpassant.dk/chess/palview/enhancedpgn.htm) Includes various extensions nowadays used.
 * [Standard Algebraic Notation (SAN)@wikipedia](https://en.wikipedia.org/wiki/Algebraic_notation_(chess)) Is part of the original specification.
+* [Numberic Annotation Glyphs@wikipedia](https://en.wikipedia.org/wiki/Numeric_Annotation_Glyphs) Is part of the original specification, but has much more information than the original specification.
+* [Chess Informant: System Of Signs](https://web.archive.org/web/20170101061157/http://www.chessinformant.org/pages.php?pageid=15) Additional NAGs with a short explanation
+* [Chess Annotation Symbols@wikipedia](https://en.wikipedia.org/wiki/Chess_annotation_symbols) Collection of annotation symbols with some more references
 * [FIDE Laws of Chess](https://handbook.fide.com/chapter/E012018) Appendix C uses a slightly different notation to PGN.
 * [Universal Chess Interface (UCI)](https://en.wikipedia.org/wiki/Universal_Chess_Interface) Used in the implementation for computers playing chess, and having any interface.
 * [Chess Notation@wikipedia](https://en.wikipedia.org/wiki/Chess_notation) Collects various standards.
