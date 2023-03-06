@@ -20,7 +20,7 @@ symbols used are not (all) included there. A typical part looks like
 > | 40   |  White has the attack|
 > | 41   |  Black has the attack|
 > | 42   |  White has insufficient compensation for material deficit|
->  43   |  Black has insufficient compensation for material deficit|
+> | 43   |  Black has insufficient compensation for material deficit|
 
 So the graphical symbols used (here for `$1` == `"!"`) are only shown in the interpretation.
 
