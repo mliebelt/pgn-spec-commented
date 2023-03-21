@@ -18,3 +18,8 @@ So what should be done here:
   * [PGN Specification Supplement](pgn-spec-supplement.md) Addition to PGN done ~8 years later, that adds structured comments for graphical symbols, timing, ...
   * [Annotated Export Format](annotated/export.md) Collection of relevant parts of the spec, annotated.
 
+## Additional
+
+Here is a collection of resources not really related to PGN, but to chess:
+
+* [Chess Terms](https://gist.github.com/mliebelt/eeac28a619a567239e13ab8e72047722) in English/German/Russian. Created a Gist for that, because I needed those terms on one page, and will use them in my lectures (for childs in a chess working group)
