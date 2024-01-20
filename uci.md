@@ -64,14 +64,16 @@ GUI to engine
 
 These are all the command the engine gets from the interface.
 
-uci
-: tell engine to use the uci (universal chess interface),
+<dl>
+<dt>uci</dt>
+<dd>tell engine to use the uci (universal chess interface),
   this will be sent once as a first command after program boot
   to tell the engine to switch to uci mode.
   After receiving the uci command the engine must identify itself with the "id" command
   and send the "option" commands to tell the GUI which engine settings the engine supports if any.
   After that the engine should send "uciok" to acknowledge the uci mode.
-  If no uciok is sent within a certain time period, the engine task will be killed by the GUI.
+  If no uciok is sent within a certain time period, the engine task will be killed by the GUI.</dd>
+</dl>
 
 debug [ on | off ]
 : switch the debug mode of the engine on and off.
