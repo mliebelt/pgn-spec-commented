@@ -4,10 +4,10 @@ Description of the universal chess interface (UCI)    April  2006
 
 <!-- TOC -->
 * [Description of the universal chess interface (UCI)    April  2006](#description-of-the-universal-chess-interface-uci-april--2006)
-    * [Move format:](#move-format)
-    * [GUI to engine:](#gui-to-engine)
-    * [Engine to GUI:](#engine-to-gui)
-    * [Examples:](#examples)
+  * [Move format](#move-format)
+  * [GUI to engine](#gui-to-engine)
+  * [Engine to GUI](#engine-to-gui)
+  * [Examples:](#examples)
 * [Chess960](#chess960)
 <!-- TOC -->
 
