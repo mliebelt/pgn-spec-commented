@@ -132,7 +132,7 @@ after "ucinewgame" to wait for the engine to finish its operation.</dd></dl>
   There are a number of commands that can follow this command, all will be sent in the same string.
   If one command is not sent its value should be interpreted as it would not influence the search.
 <dl>
-<dt>searchmoves \<move1> .... \<movei></dt>
+<dt>searchmoves \<move1> .... &lt;movei&gt;</dt>
 <dd>
   restrict search to this moves only
 
@@ -146,23 +146,23 @@ after "ucinewgame" to wait for the engine to finish its operation.</dd></dl>
 
   The engine can do what it wants to do, but after a "ponderhit" command it should execute the suggested move to ponder on. This means that the ponder move sent by the GUI can be interpreted as a recommendation about which move to ponder. However, if the  engine decides to ponder on a different move, it should not display any mainlines as they are likely to be misinterpreted by the GUI because the GUI expects the engine to ponder
   on the suggested move.</dd>
-<dt>wtime \<x></dt>
+<dt>wtime &lt;x&gt;</dt>
 <dd>white has x msec left on the clock</dd>  
-<dt>btime \<x></dt>
+<dt>btime &lt;x&gt;</dt>
 <dd>black has x msec left on the clock</dd>  
-<dt>winc \<x></dt>
+<dt>winc &lt;x&gt;</dt>
 <dd>white increment per move in mseconds if x > 0</dd>
-<dt>binc \<x></dt>
+<dt>binc &lt;x&gt;</dt>
 <dd>black increment per move in mseconds if x > 0</dd>
-<dt>movestogo \<x></dt>
+<dt>movestogo &lt;x&gt;</dt>
 <dd>there are x moves to the next time control, this will only be sent if x > 0, if you don't get this and get the wtime and btime it's sudden death</dd>
-<dt>depth \<x></dt>
+<dt>depth &lt;x&gt;</dt>
 <dd>search x plies only.</dd>
-<dt>nodes \<x></dt>
+<dt>nodes &lt;x&gt;</dt>
 <dd>search x nodes only,</dd>
-<dt>mate \<x></dt>
+<dt>mate &lt;x&gt;</dt>
 <dd>search for a mate in x moves</dd>
-<dt>movetime \<x></dt>
+<dt>movetime &lt;x&gt;</dt>
 <dd>search exactly x mseconds</dd>
 <dt>infinite</dt>
 <dd>search until the "stop" command. Do not exit the search without being told so in this mode!</dd></dl></dd>
@@ -258,51 +258,50 @@ Additional info:
 <dd>the time searched in ms, this should be sent together with the pv.</dd>
 <dt>nodes <x></dt>
 <dd>x nodes searched, the engine should send this info regularly</dd>
-<dt>pv \<move1> ... \<movei></dt>
+<dt>pv &lt;move1&gt; ... &lt;movei&gt;</dt>
 <dd>the best line found</dd>
-<dt>multipv \<num></dt>
-<dd>this for the multi pv mode.</dd>
+<dt>multipv &lt;num&gt;</dt>
+<dd>this for the multi pv mode.
+
   for the best move/pv add "multipv 1" in the string when you send the pv.
-  in k-best mode always send all k variants in k strings together.
-* score
-    * cp <x>
-
-      the score from the engine's point of view in centipawns.
-    * mate <y>
-
-      mate in y moves, not plies. If the engine is getting mated use negative values for y.
-    * lowerbound
-
-      the score is just a lower bound.
-    * upperbound
-
-      the score is just an upper bound.
+  in k-best mode always send all k variants in k strings together.</dd>
+<dl>
+<dt>score</dt>
+<dd><dl>
+    <dt>cp <x></dt>
+<dd>    the score from the engine's point of view in centipawns.</dd>
+    <dt>mate <y></dt>
+<dd>    mate in y moves, not plies. If the engine is getting mated use negative values for y.</dd></dl></dd>
+    <dt>lowerbound</dt>
+<dd>    the score is just a lower bound.</dd>
+    <dt>upperbound</dt>
+<dd>    the score is just an upper bound.</dd>
 <dt>currmove <move></dt>
 <dd>currently searching this move</dd>
-<dt>currmovenumber \<x></dt>
+<dt>currmovenumber &lt;x&gt;</dt>
 <dd>currently searching move number x, for the first move x should be 1 not 0.</dd>
-<dt>hashfull \<x></dt>
+<dt>hashfull &lt;x&gt;</dt>
 <dd>the hash is x permill full, the engine should send this info regularly</dd>
-<dt>nps \<x></dt>
+<dt>nps &lt;x&gt;</dt>
 <dd>x nodes per second searched, the engine should send this info regularly</dd>
-<dt>tbhits \<x></dt>
+<dt>tbhits &lt;x&gt;</dt>
 <dd>x positions where found in the endgame table bases</dd>
-<dt>sbhits \<x></dt>
+<dt>sbhits &lt;x&gt;</dt>
 <dd>x positions where found in the shredder endgame databases</dd>
-<dt>cpuload \<x></dt>
+<dt>cpuload &lt;x&gt;</dt>
 <dd>the cpu usage of the engine is x permill.</dd>
-<dt>string \<str></dt>
+<dt>string &lt;str&gt;</dt>
 <dd>any string str which will be displayed be the engine,</dd>
   if there is a string command the rest of the line will be interpreted as \<str>.
-<dt>refutation \<move1> \<move2> ... \<movei></dt>
-<dd>move \<move1> is refuted by the line \<move2> ... \<movei>, i can be any number >= 1.</dd>
+<dt>refutation &lt;move1&gt; &lt;move2&gt; ... &lt;movei&gt;</dt>
+<dd>move lt;move1&gt; is refuted by the line lt;move2&gt; ... lt;movei&gt;, i can be any number >= 1.
   Example: after move d1h5 is searched, the engine can send
-  "info refutation d1h5 g6h5"
+  <code>"info refutation d1h5 g6h5"</code>
   if g6h5 is the best answer after d1h5 or if g6h5 refutes the move d1h5.
   if there is no refutation for d1h5 found, the engine should just send
   "info refutation d1h5"
-  The engine should only send this if the option "UCI_ShowRefutations" is set to true.
-<dt>currline \<cpunr> \<move1> ... \<movei></dt>
+  The engine should only send this if the option "UCI_ShowRefutations" is set to true.</dd>
+<dt>currline &lt;cpunr&gt; &lt;move1&gt; ... &lt;movei&gt;</dt>
 <dd>this is the current line the engine is calculating. \<cpunr> is the number of the cpu if
   the engine is running on more than one cpu. \<cpunr> = 1,2,3....
   if the engine is just using one cpu, \<cpunr> can be omitted.
@@ -324,7 +323,7 @@ Additional info:
   One string will be sent for each parameter.
 
 <dl>
-<dt>name \<id></dt>
+<dt>name &lt;id&gt;</dt>
 <dd>The option has the name id.</dd>
   Certain options have a fixed value for <id>, which means that the semantics of this option is fixed.
   Usually those options should not be displayed in the normal engine options window of the GUI but
@@ -333,47 +332,48 @@ Additional info:
   automatically by the GUI. All those certain options have the prefix "UCI_" except for the
   first 6 options below. If the GUI gets an unknown Option with the prefix "UCI_", it should just
   ignore it and not display it in the engine's options dialog.
-    <dt>\<id> = Hash, type is spin</dt>
+    <dt>&lt;id> = Hash, type is spin</dt>
 <dd>    the value in MB for memory for hash tables can be changed,</dd>
       this should be answered with the first "setoptions" command at program boot
       if the engine has sent the appropriate "option name Hash" command,
       which should be supported by all engines!
       So the engine should use a very small hash first as default.
-    <dt>\<id> = NalimovPath, type string</dt>
+    <dt>&lt;id> = NalimovPath, type string</dt>
 <dd>    this is the path on the hard disk to the Nalimov compressed format. Multiple directories can be concatenated with ";"</dd>
-    <dt>\<id> = NalimovCache, type spin</dt>
+    <dt>&lt;id> = NalimovCache, type spin</dt>
 <dd>    this is the size in MB for the cache for the nalimov table bases</dd>
       These last two options should also be present in the initial options exchange dialog
       when the engine is booted if the engine supports it
-    <dt>\<id> = Ponder, type check</dt>
+    <dt>&lt;id> = Ponder, type check</dt>
 <dd>    this means that the engine is able to ponder.</dd>
       The GUI will send this whenever pondering is possible or not.
       Note: The engine should not start pondering on its own if this is enabled, this option is only
       needed because the engine might change its time management algorithm when pondering is allowed.
-    <dt>\<id> = OwnBook, type check</dt>
+    <dt>&lt;id> = OwnBook, type check</dt>
 <dd>    this means that the engine has its own book which is accessed by the engine itself.</dd>
       if this is set, the engine takes care of the opening book and the GUI will never
       execute a move out of its book for the engine. If this is set to false by the GUI,
       the engine should not access its own book.
-    <dt>\<id> = MultiPV, type spin</dt>
+    <dt>&lt;id> = MultiPV, type spin</dt>
 <dd>    the engine supports multi best line or k-best mode. the default value is 1</dd>
-    <dt>\<id> = UCI_ShowCurrLine, type check, should be false by default,</dt>
+    <dt>&lt;id> = UCI_ShowCurrLine, type check, should be false by default,</dt>
 <dd>    the engine can show the current line it is calculating. see "info currline" above.</dd>
-    <dt>\<id> = UCI_ShowRefutations, type check, should be false by default,</dt>
+    <dt>&lt;id> = UCI_ShowRefutations, type check, should be false by default,</dt>
 <dd>    the engine can show a move and its refutation in a line. see "info refutations" above.</dd>
-    <dt>\<id> = UCI_LimitStrength, type check, should be false by default,</dt>
+    <dt>&lt;id> = UCI_LimitStrength, type check, should be false by default,</dt>
 <dd>    The engine is able to limit its strength to a specific Elo number,</dd>
       This should always be implemented together with "UCI_Elo".
-    <dt>\<id> = UCI_Elo, type spin</dt>
-<dd>    The engine can limit its strength in Elo within this interval.</dd>
+    <dt>&lt;id> = UCI_Elo, type spin</dt>
+<dd>    The engine can limit its strength in Elo within this interval.
       If UCI_LimitStrength is set to false, this value should be ignored.
       If UCI_LimitStrength is set to true, the engine should play with this specific strength.
       This should always be implemented together with "UCI_LimitStrength".
-    <dt>\<id> = UCI_AnalyseMode, type check</dt>
+</dd>
+    <dt>&lt;id> = UCI_AnalyseMode, type check</dt>
 <dd>    The engine wants to behave differently when analysing or playing a game.</dd>
       For example when playing it can use some kind of learning.
       This is set to false if the engine is playing a game, otherwise it is true.
-    <dt>\<id> = UCI_Opponent, type string</dt>
+    <dt>&lt;id> = UCI_Opponent, type string</dt>
 <dd>    With this command the GUI can send the name, title, elo and if the engine is playing a human</dd>
       or computer to the engine.
 
@@ -396,7 +396,7 @@ Additional info:
       The string can have the formats:
       <value> + <fen> | clear + <fen> | clearall
 <dl>
-<dt>type \<t></dt>
+<dt>type &lt;t&gt;</dt>
 <dd>The option has type t.</dd>
   There are 5 different types of options the engine can send
     <dt>check</dt>
@@ -408,8 +408,9 @@ Additional info:
     <dt>button</dt>
 <dd>    a button that can be pressed to send a command to the engine</dd>
     <dt>string</dt>
-<dd>    a text field that has a string as a value,</dd>
+<dd>    a text field that has a string as a value,
       an empty string has the value "<empty>"
+
 * default <x>
   the default value of this parameter is x
 * min <x>
@@ -418,13 +419,19 @@ Additional info:
   the maximum value of this parameter is x
 * var <x>
   a predefined value of this parameter is x
-  Examples:
-  Here are 5 strings for each of the 5 possible types of options
-  "option name Nullmove type check default true\n"
-  "option name Selectivity type spin default 2 min 0 max 4\n"
-  "option name Style type combo default Normal var Solid var Normal var Risky\n"
-  "option name NalimovPath type string default c:\\n"
-  "option name Clear Hash type button\n"
+
+Examples:
+Here are 5 strings for each of the 5 possible types of options
+
+<code>"option name Nullmove type check default true\n"</code>
+
+<code>"option name Selectivity type spin default 2 min 0 max 4\n"</code>
+
+<code>"option name Style type combo default Normal var Solid var Normal var Risky\n"</code>
+
+<code>"option name NalimovPath type string default c:\\n"</code>
+
+<code>"option name Clear Hash type button\n"</dd></code>
 </dd></dl>
 
 
