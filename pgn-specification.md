@@ -889,10 +889,10 @@ nature; they are likely to be changed as a result of reviewer feedback.
 |  91 | Black has poor bishop placement                                |
 |  92 | White has good bishop placement                                |
 |  93 | Black has good bishop placement                                |
-|  84 | White has poor rook placement                                  |
-|  85 | Black has poor rook placement                                  |
-|  86 | White has good rook placement                                  |
-|  87 | Black has good rook placement                                  |
+|  94 | White has poor rook placement                                  |
+|  95 | Black has poor rook placement                                  |
+|  96 | White has good rook placement                                  |
+|  97 | Black has good rook placement                                  |
 |  98 | White has poor queen placement                                 |
 |  99 | Black has poor queen placement                                 |
 | 100 | White has good queen placement                                 |

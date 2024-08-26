@@ -436,8 +436,8 @@ Here are 5 strings for each of the 5 possible types of options
 
 
 
-Examples:
----------
+Examples
+--------
 
 This is how the communication when the engine boots can look like:
 
@@ -524,6 +524,8 @@ stop
 // that the engine is ready again
 bestmove g1f3 ponder d8f6
 ```
+
+Remark: For an extensive description of the usage of the interface, see the [wiki pages in official Stockfish repo](
 
 Chess960
 ========
