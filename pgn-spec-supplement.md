@@ -292,4 +292,4 @@ Many thanks to Axel Fritz and Robert Ericsson
    We ruled out the use of `< >` as delimiters specified in the BIF format because if this syntax is pasted into an html document then parsers will ignore the contents as an unrecognised tag.  This is not the effect we want.
 2. While the seven tag roster is very precisely specified the PGN specification does envisage the specification of new optional tags. We have taken advantage of this to specify several new tags.  
    Note also that there is already a `[Time]` tag - this denotes the time of the game start (and not anything else).
-3. For reference the current pgn standard is here http://www.clark.net/pub/pribut/standard.txt
+3. For reference the current pgn standard is here https://ia802908.us.archive.org/26/items/pgn-standard-1994-03-12/PGN_standard_1994-03-12.txt
